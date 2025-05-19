@@ -23,3 +23,6 @@
 \contentsline {subsection}{\numberline {6.1}Einfache Diagramme}{2}{}%
 \contentsline {subsection}{\numberline {6.2}Mehrere Kurven in einem Diagramm}{2}{}%
 \contentsline {subsection}{\numberline {6.3}Grafische Anpassungen}{2}{}%
+\contentsline {section}{\numberline {7}Anhang}{2}{}%
+\contentsline {subsection}{\numberline {7.1}Dokumentation in MATLAB}{2}{}%
+\contentsline {subsection}{\numberline {7.2}Übersicht wichtiger MATLAB Befehle}{2}{}%
