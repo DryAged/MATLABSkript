@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.4.29)  20 MAY 2025 10:45
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.4.29)  20 MAY 2025 10:52
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -90,20 +90,20 @@ File: l3backend-pdftex.def 2024-03-14 L3 backend support: PDF output (pdfTeX)
 ) (./main.aux)
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 8.
-LaTeX Font Info:    ... okay on input line 8.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 8.
-LaTeX Font Info:    ... okay on input line 8.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 8.
-LaTeX Font Info:    ... okay on input line 8.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 8.
-LaTeX Font Info:    ... okay on input line 8.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 8.
-LaTeX Font Info:    ... okay on input line 8.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 8.
-LaTeX Font Info:    ... okay on input line 8.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 8.
-LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
  (/usr/local/texlive/2024/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count269
@@ -181,7 +181,7 @@ File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 <Bilder/Helmut Schmidt Universität-a89973ff.png, id=1, 465.99094pt x 335.00156pt>
 File: Bilder/Helmut Schmidt Universität-a89973ff.png Graphic file (type png)
 <use Bilder/Helmut Schmidt Universität-a89973ff.png>
-Package pdftex.def Info: Bilder/Helmut Schmidt Universität-a89973ff.png  used on input line 12.
+Package pdftex.def Info: Bilder/Helmut Schmidt Universität-a89973ff.png  used on input line 16.
 (pdftex.def)             Requested size: 200.0pt x 143.77693pt.
 [1
 
@@ -200,29 +200,29 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 <Bilder/CommandWindow.png, id=14, 2025.5675pt x 459.7175pt>
 File: Bilder/CommandWindow.png Graphic file (type png)
 <use Bilder/CommandWindow.png>
-Package pdftex.def Info: Bilder/CommandWindow.png  used on input line 39.
+Package pdftex.def Info: Bilder/CommandWindow.png  used on input line 43.
 (pdftex.def)             Requested size: 338.58632pt x 76.83919pt.
 <Bilder/Editor.png, id=15, 845.0772pt x 408.0846pt>
 File: Bilder/Editor.png Graphic file (type png)
 <use Bilder/Editor.png>
-Package pdftex.def Info: Bilder/Editor.png  used on input line 46.
+Package pdftex.def Info: Bilder/Editor.png  used on input line 50.
 (pdftex.def)             Requested size: 338.58632pt x 163.49869pt.
 
-Underfull \vbox (badness 1132) has occurred while \output is active []
+Underfull \vbox (badness 1092) has occurred while \output is active []
 
  [2{/usr/local/texlive/2024/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc} <./Bilder/CommandWindow.png>]
 <Bilder/Workspace.png, id=21, 568.1225pt x 1353.055pt>
 File: Bilder/Workspace.png Graphic file (type png)
 <use Bilder/Workspace.png>
-Package pdftex.def Info: Bilder/Workspace.png  used on input line 53.
+Package pdftex.def Info: Bilder/Workspace.png  used on input line 57.
 (pdftex.def)             Requested size: 96.73788pt x 230.38792pt.
 <Bilder/CurrentFolder.png, id=22, 694.595pt x 965.6075pt>
 File: Bilder/CurrentFolder.png Graphic file (type png)
 <use Bilder/CurrentFolder.png>
-Package pdftex.def Info: Bilder/CurrentFolder.png  used on input line 60.
+Package pdftex.def Info: Bilder/CurrentFolder.png  used on input line 64.
 (pdftex.def)             Requested size: 145.11053pt x 201.72272pt.
 
-Underfull \vbox (badness 1442) has occurred while \output is active []
+Underfull \vbox (badness 1248) has occurred while \output is active []
 
  [3 <./Bilder/Editor.png> <./Bilder/Workspace.png>] [4 <./Bilder/CurrentFolder.png>]
 Overfull \vbox (19.74338pt too high) has occurred while \output is active []
@@ -240,9 +240,9 @@ Here is how much of TeX's memory you used:
  25930 multiletter control sequences out of 15000+600000
  563266 words of font info for 53 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 59i,6n,67p,375b,232s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 59i,7n,67p,375b,241s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb>
-Output written on main.pdf (6 pages, 918996 bytes).
+Output written on main.pdf (6 pages, 919699 bytes).
 PDF statistics:
  50 PDF objects out of 1000 (max. 8388607)
  25 compressed objects within 1 object stream

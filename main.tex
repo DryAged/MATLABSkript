@@ -5,6 +5,10 @@
 \usepackage{float}
 \usepackage[ngerman]{babel}
 
+
+\setlength{\fboxsep}{0.5pt}
+\setlength{\fboxrule}{1pt}
+
 \begin{document}
     \thispagestyle{empty}
      \vspace*{4cm}
@@ -20,7 +24,7 @@
     \tableofcontents
     \newpage
     \section{Einführung}
-        \subsection{Was ist MATLAB}
+        \subsection{Was ist MATLAB?}
         MATLAB ist die Abkürzung für MATrix LABoratory. Zudem ist es ein interaktives, integriertes System zur Berechnung, Visualisierung oder Programmierung mathematischer Problemstellungen. Es bietet eine einfache Skriptsprache welche auf die Verarbeitung von Matrizen ausgelegt ist.
         \subsection{Anwendungsgebiete in den Ingenieurwissenschaften}
         MATLAB bietet in vielen Ingenieurwissenschaftlichen Betätigungsfeldern weitreichende \\Vorteile.
@@ -36,28 +40,28 @@
             \subsubsection*{Command Window}
                 \begin{figure}[H]
                     \centering
-                    \includegraphics[width=0.7\textwidth]{Bilder/CommandWindow.png}
+                    \fbox{\includegraphics[width=0.7\textwidth]{Bilder/CommandWindow.png}}
                     \caption{Command Window in MATLAB}
                 \end{figure}
                 Im Command Window können Befehle direkt eingegeben werden. Da Ergebnisse von Berechnungen unverzüglich angezeigt werden, können hier einzelne Befehle idealerweise getestet werden.
             \subsubsection*{Editor}
                 \begin{figure}[H]
                     \centering
-                    \includegraphics[width=0.7\textwidth]{Bilder/Editor.png}
+                    \fbox{\includegraphics[width=0.7\textwidth]{Bilder/Editor.png}}
                     \caption{Editor in MATLAB}
                 \end{figure}
                 Im Editor können komplette Skripte und Funktionen geschrieben, gespeichert und ausgeführt werden. Er unterstützt das Debugging mittels Breakpoints und Schritt-für-Schritt Ausführung.
             \subsubsection*{Workspace}
                 \begin{figure}[H]
                     \centering
-                    \includegraphics[width=0.2\textwidth]{Bilder/Workspace.png}
+                    \fbox{\includegraphics[width=0.2\textwidth]{Bilder/Workspace.png}}
                     \caption{Workspace in MATLAB}
                 \end{figure}
                 Im Workspace werden alle aktuellen Variablen inklusive ihres Inhalts angezeigt. Weiterhin ist es möglich diese Variablen hier manuell anzupassen oder zu löschen.
             \subsubsection*{Current Folder}
                 \begin{figure}[H]
                     \centering
-                    \includegraphics[width=0.3\textwidth]{Bilder/CurrentFolder.png}      
+                    \fbox{\includegraphics[width=0.3\textwidth]{Bilder/CurrentFolder.png}}
                     \caption{Current Folder in MATLAB}              
                 \end{figure}
                 Im Current Folder findet man alle Dateien des Projektordners. Diese können durch Doppelklick oder das Ziehen in den Editor geöffnet und bearbeitet werden.
