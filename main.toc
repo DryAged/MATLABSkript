@@ -6,6 +6,7 @@
 \contentsline {subsection}{\numberline {2.1}Variablendeklaration}{2}{}%
 \contentsline {subsection}{\numberline {2.2}Mathematische Grundoperationen}{2}{}%
 \contentsline {subsection}{\numberline {2.3}Kommentare}{2}{}%
+\contentsline {subsection}{\numberline {2.4}Komplexe Zahlen}{2}{}%
 \contentsline {section}{\numberline {3}Vektoren und Matrizen}{2}{}%
 \contentsline {subsection}{\numberline {3.1}Erstellen von Vektoren und Matrizen}{2}{}%
 \contentsline {subsection}{\numberline {3.2}Zugriff auf Elemente und Indizierung}{2}{}%
@@ -17,12 +18,13 @@
 \contentsline {subsection}{\numberline {4.3}Schleifen}{2}{}%
 \contentsline {section}{\numberline {5}Arbeiten mit Dateien und Daten}{2}{}%
 \contentsline {subsection}{\numberline {5.1}Speichern und Laden von Daten}{2}{}%
-\contentsline {subsection}{\numberline {5.2}Importieren von Messaten}{2}{}%
+\contentsline {subsection}{\numberline {5.2}Importieren von Messdaten}{2}{}%
 \contentsline {subsection}{\numberline {5.3}Analyse und Verarbeitung von Daten}{2}{}%
 \contentsline {section}{\numberline {6}Visualisierung von Daten}{2}{}%
 \contentsline {subsection}{\numberline {6.1}Einfache Diagramme}{2}{}%
 \contentsline {subsection}{\numberline {6.2}Mehrere Kurven in einem Diagramm}{2}{}%
-\contentsline {subsection}{\numberline {6.3}Grafische Anpassungen}{2}{}%
+\contentsline {subsection}{\numberline {6.3}Mehrere Diagramme in einer Übersicht}{2}{}%
+\contentsline {subsection}{\numberline {6.4}Grafische Anpassungen}{2}{}%
 \contentsline {section}{\numberline {7}Anhang}{2}{}%
 \contentsline {subsection}{\numberline {7.1}Dokumentation in MATLAB}{2}{}%
 \contentsline {subsection}{\numberline {7.2}Übersicht wichtiger MATLAB Befehle}{2}{}%
