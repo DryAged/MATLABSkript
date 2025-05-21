@@ -11,6 +11,7 @@
 \usepackage{float}
 \usepackage{listings}
 \usepackage{tabularx}
+\usepackage{hyperref}
 
 %Listingkonfiguration
 \lstset{
@@ -107,7 +108,7 @@
 a = 3;
                 \end{lstlisting}
                 \tcblower
-                Der Variable \textbf{a} wird der Wert \textbf{3} zugewiesen.
+                Der Variable \texttt{a} wird der Wert \texttt{3} zugewiesen.
                 \end{CodeErklaerungBox}
                 \noindent Eine Zuweisung ohne ein Semikolon am Ende der Zeile bewirkt eine direkte Rückgabe des Variablenwertes.
                 \begin{CodeErklaerungBox}{Fließkommazahl}
@@ -115,48 +116,50 @@ a = 3;
 a = 4.5;
                 \end{lstlisting}
                 \tcblower
-                Der Variable \textbf{a} wird der Wert \textbf{4.5} zugewiesen. Als Trennzeichen in MATLAB wird der Punkt an Stelle eines Kommas verwendet.
+                Der Variable \texttt{a} wird der Wert \texttt{4.5} zugewiesen. Als Trennzeichen in MATLAB wird der Punkt an Stelle eines Kommas verwendet.
                 \end{CodeErklaerungBox}
                 \begin{CodeErklaerungBox}{Zeichenkette}
                 \begin{lstlisting}
 name = "Peter";
                 \end{lstlisting}
                 \tcblower
-                Der Variable \textbf{name} wird der String \textbf{Peter} zugewiesen.
+                Der Variable \texttt{name} wird der String \texttt{Peter} zugewiesen.
                 \end{CodeErklaerungBox}
                 \begin{CodeErklaerungBox}{Logischer Wert}
                 \begin{lstlisting}
 isValid = true;
                 \end{lstlisting}
                 \tcblower
-                Der Variable \textbf{isValid} wird der boolsche Wert \textbf{true} zugewiesen.
+                Der Variable \texttt{isValid} wird der boolsche Wert \texttt{true} zugewiesen.
                 \end{CodeErklaerungBox}
                 \begin{CodeErklaerungBox}{Automatische Typzuweisung}
                 \begin{lstlisting}
 a = pi;
                 \end{lstlisting}
                 \tcblower
-                Der Variable \textbf{a} wird die, in MATLAB vordefinierte Variable \textbf{$\pi$} zugewiesen.
+                Der Variable \texttt{a} wird die, in MATLAB vordefinierte Variable $\pi$ zugewiesen.
                 \end{CodeErklaerungBox}
                 \noindent Neben pi gibt es weitere vordefinierte Variablen. Diesen kann zwar ebenfalls ein selbst definierter Wert zugewiesen werden, jedoch ist es nicht empfehlenswert.
-
-                \begin{tabularx}{0.95\textwidth}{|l| X| l|}
+                \begin{center}
+                \renewcommand{\arraystretch}{1.4}
+                \begin{tabularx}{\textwidth}{|l| X| l|}
                     \hline
                     \textbf{Variable} & \textbf{Bedeutung} & \textbf{Wert} \\
                     \hline
-                    \textbf{inf} & Unendlich & $\frac{1}{0}$ ergibt \textbf{inf} \\
+                    \texttt{inf} & Unendlich & $\frac{1}{0}$ ergibt \texttt{inf} \\
                     \hline
-                    \textbf{i} & Imaginäre Einheit & $\sqrt{-1}$ \\
+                    \texttt{i} & Imaginäre Einheit & $\sqrt{-1}$ \\
                     \hline
-                    \textbf{j} & Alternative imaginäre Einheit & $\sqrt{-1}$ \\
+                    \texttt{j} & Alternative imaginäre Einheit & $\sqrt{-1}$ \\
                     \hline
-                    \textbf{NaN} & "Not a Number" - ungültiger Wert & $\frac{0}{0}$ ergibt \textbf{NaN} \\
+                    \texttt{NaN} & "Not a Number" - ungültiger Wert & $\frac{0}{0}$ ergibt \texttt{NaN} \\
                     \hline
-                    \textbf{ans} & Ergebnis der letzten berechneten Zeile & z.B. \textbf{ans} = 42 \\
+                    \texttt{ans} & Ergebnis der letzten berechneten Zeile & z.B. \texttt{ans = 42} \\
                     \hline
-                    \textbf{true}/\textbf{false} & Boolsche Werte & 1 bzw. 0 \\
+                    \texttt{true}/\texttt{false} & Boolsche Werte & \texttt{1} bzw. \texttt{0} \\
                     \hline
                 \end{tabularx}
+            \end{center}
         \subsection{Mathematische Grundoperationen}
         \subsection{Kommentare}
         \subsection{Komplexe Zahlen}
