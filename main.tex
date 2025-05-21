@@ -2,9 +2,39 @@
 
 \usepackage{graphicx}
 \usepackage[a4paper, left=2cm, right=2cm, top=2.5cm, bottom=3cm]{geometry}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{tcolorbox}
+\usepackage{adjustbox}
+\usepackage{geometry}
+\usepackage{xparse}
 \usepackage{float}
-\usepackage[ngerman]{babel}
 
+
+\tcbuselibrary{listings, skins, breakable}
+
+\newtcolorbox{CodeErklaerungBox}[2][]{
+  enhanced,
+  breakable,
+  colback=white,
+  colframe=gray,
+  fonttitle=\bfseries,
+  title=#2,
+  sidebyside, % Aktiviert nebeneinander
+  sidebyside align=center, % obenbündig
+  lefthand width=0.47\textwidth,
+  righthand width=0.47\textwidth,
+  #1
+}
+
+% Konfiguration für Code-Listing
+\usepackage{listings}
+\lstset{
+  basicstyle=\ttfamily\small,
+  breaklines=true,
+  frame=none,
+  language=MATLAB
+}
 
 \setlength{\fboxsep}{0.5pt}
 \setlength{\fboxrule}{1pt}
@@ -69,6 +99,13 @@
             
     \section{Grundlegende Operationen}
         \subsection{Variablendeklaration}
+                \begin{CodeErklaerungBox}{Einfache Wertzuweisung}
+                \begin{lstlisting}
+a = 3;
+                \end{lstlisting}
+                \tcblower
+                Der Variable a wird der Wert 3 zugewiesen
+                \end{CodeErklaerungBox}
         \subsection{Mathematische Grundoperationen}
         \subsection{Kommentare}
         \subsection{Komplexe Zahlen}
@@ -76,7 +113,7 @@
         \subsection{Erstellen von Vektoren und Matrizen}
         \subsection{Zugriff auf Elemente und Indizierung}
         \subsection{Matrixoperationen}
-        \subsection{nützliche MATLAB Funktionen}
+        \subsection{nuetzliche MATLAB Funktionen}
     \section{Programmiergrundlagen}
         \subsection{Skripte}
         \subsection{Funktionen}
@@ -88,9 +125,9 @@
     \section{Visualisierung von Daten}
         \subsection{Einfache Diagramme}
         \subsection{Mehrere Kurven in einem Diagramm}
-        \subsection{Mehrere Diagramme in einer Übersicht}
+        \subsection{Mehrere Diagramme in einer UEbersicht}
         \subsection{Grafische Anpassungen}
     \section{Anhang}
         \subsection{Dokumentation in MATLAB}
-        \subsection{Übersicht wichtiger MATLAB Befehle}
+        \subsection{Uebersicht wichtiger MATLAB Befehle}
 \end{document}
