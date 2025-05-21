@@ -12,6 +12,7 @@
 \usepackage{listings}
 \usepackage{tabularx}
 \usepackage{hyperref}
+\usepackage[dvipsnames]{xcolor}
 
 %Listingkonfiguration
 \lstset{
@@ -27,14 +28,14 @@
 \newtcolorbox{CodeErklaerungBox}[2][]{
   enhanced,
   breakable,
-  colback=white,
-  colframe=gray,
+  colback=White,
+  colframe=MidnightBlue,
   fonttitle=\bfseries,
   title=#2,
   sidebyside,
   sidebyside align=center,
-  lefthand width=0.47\textwidth,
-  righthand width=0.47\textwidth,
+  lefthand width=0.48\textwidth,
+  righthand width=0.48\textwidth,
   #1
 }
 
@@ -42,6 +43,7 @@
 
 \setlength{\fboxsep}{0.5pt}
 \setlength{\fboxrule}{1pt}
+\renewcommand\fbox{\fcolorbox{MidnightBlue}{White}}
 
 \begin{document}
     \thispagestyle{empty}
@@ -161,8 +163,71 @@ a = pi;
                 \end{tabularx}
             \end{center}
         \subsection{Mathematische Grundoperationen}
-        \subsection{Kommentare}
+            \begin{CodeErklaerungBox}{Addition}
+                \begin{lstlisting}
+c = a + b;
+                \end{lstlisting}
+                \tcblower
+                In der Variable \texttt{c} wird die Summe aus \texttt{a} und \texttt{b} gespeichert.
+                \end{CodeErklaerungBox}
+                \begin{CodeErklaerungBox}{Subtraktion}
+                \begin{lstlisting}
+c = a - b;
+                \end{lstlisting}
+                \tcblower
+                In der Variable \texttt{c} wird die Differenz aus \texttt{a} und \texttt{b} gespeichert.
+                \end{CodeErklaerungBox}
+                \begin{CodeErklaerungBox}{Multiplikation}
+                \begin{lstlisting}
+c = a * b;
+                \end{lstlisting}
+                \tcblower
+                In der Variable \texttt{c} wird das Produkt aus \texttt{a} und \texttt{b} gespeichert.
+                \end{CodeErklaerungBox}
+                \begin{CodeErklaerungBox}{Division}
+                \begin{lstlisting}
+c = a / b;
+                \end{lstlisting}
+                \tcblower
+                In der Variable \texttt{c} wird der Quotient aus \texttt{a} und \texttt{b} gespeichert.
+                \end{CodeErklaerungBox}
+                \begin{CodeErklaerungBox}{Ganzzahlige Division}
+                \begin{lstlisting}
+c = floor(a / b);
+                \end{lstlisting}
+                \tcblower
+                In der Variable \texttt{c} wird das Ergebnis der Division von \texttt{a} und \texttt{b} gerundet zur nächsten Ganzzahl gespeichert.
+                \end{CodeErklaerungBox}
+                \begin{CodeErklaerungBox}{Modulo}
+                \begin{lstlisting}
+c = mod(a / b);
+                \end{lstlisting}
+                \tcblower
+                In der Variable \texttt{c} wird der Rest der Division von \texttt{a} und \texttt{b} gespeichert.
+                \end{CodeErklaerungBox}
+                \begin{CodeErklaerungBox}{Potenzieren}
+                \begin{lstlisting}
+c = a ^ 2;
+                \end{lstlisting}
+                \tcblower
+                In der Variable \texttt{c} wird das Ergebnis der zweiten Potenz von \texttt{a} gespeichert.
+                \end{CodeErklaerungBox}
+                \begin{CodeErklaerungBox}{Wurzeln}
+                \begin{lstlisting}
+c = sqrt(a);
+                \end{lstlisting}
+                \tcblower
+                In der Variable \texttt{c} wird die Wurzel von \texttt{a} gespeichert.
+                \end{CodeErklaerungBox}
+                \begin{CodeErklaerungBox}{Betrag}
+                \begin{lstlisting}
+c = abs(-a);
+                \end{lstlisting}
+                \tcblower
+                In der Variable \texttt{c} wird der Betrag von \texttt{-a} gespeichert.
+                \end{CodeErklaerungBox}
         \subsection{Komplexe Zahlen}
+        \subsection{Kommentare}
     \section{Vektoren und Matrizen}
         \subsection{Erstellen von Vektoren und Matrizen}
         \subsection{Zugriff auf Elemente und Indizierung}

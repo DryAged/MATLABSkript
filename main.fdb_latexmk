@@ -1,6 +1,6 @@
 # Fdb version 4
-["pdflatex"] 1747821776.16689 "/Users/hansen/Desktop/aktuell wichtig/MATLAB Grundlagen/main.tex" "main.pdf" "main" 1747821778.49561 0
-  "/Users/hansen/Desktop/aktuell wichtig/MATLAB Grundlagen/main.tex" 1747821775.95341 8044 7ad300f312f1619df5c497c5a06e0219 ""
+["pdflatex"] 1747824254.07278 "/Users/hansen/Desktop/aktuell wichtig/MATLAB Grundlagen/main.tex" "main.pdf" "main" 1747824256.4576 0
+  "/Users/hansen/Desktop/aktuell wichtig/MATLAB Grundlagen/main.tex" 1747824251.3921 10898 7a62786a67cda17780195ecfdd30575c ""
   "/usr/local/texlive/2024/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc" 1136849721 2971 def0b6c1f0b107b3b936def894055589 ""
   "/usr/local/texlive/2024/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc" 1136849721 2900 1537cc8184ad1792082cd229ecc269f4 ""
   "/usr/local/texlive/2024/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
@@ -126,6 +126,7 @@
   "/usr/local/texlive/2024/texmf-dist/tex/latex/graphics-cfg/graphics.cfg" 1465944070 1224 978390e9c2234eab29404bc21b268d1e ""
   "/usr/local/texlive/2024/texmf-dist/tex/latex/graphics-def/pdftex.def" 1713382759 19440 9da9dcbb27470349a580fca7372d454b ""
   "/usr/local/texlive/2024/texmf-dist/tex/latex/graphics/color.sty" 1654720880 7233 e46ce9241d2b2ca2a78155475fdd557a ""
+  "/usr/local/texlive/2024/texmf-dist/tex/latex/graphics/dvipsnam.def" 1654720880 5009 d242512eef244b70f2fc3fde14419206 ""
   "/usr/local/texlive/2024/texmf-dist/tex/latex/graphics/graphics.sty" 1654720880 18387 8f900a490197ebaf93c02ae9476d4b09 ""
   "/usr/local/texlive/2024/texmf-dist/tex/latex/graphics/graphicx.sty" 1654720880 8010 a8d949cbdbc5c983593827c9eec252e1 ""
   "/usr/local/texlive/2024/texmf-dist/tex/latex/graphics/keyval.sty" 1654720880 2671 7e67d78d9b88c845599a85b2d41f2e39 ""
@@ -189,10 +190,10 @@
   "Bilder/Editor.png" 1747729299.32315 618928 34af49500ba367d267832045e98b844c ""
   "Bilder/Helmut Schmidt Universität-a89973ff.png" 1747674410.12081 161380 bfae90d025b4a67f28afbffdeaef4c3c ""
   "Bilder/Workspace.png" 1747729669.78281 169038 ba3e7e2d5fa09fe10e687758591d7232 ""
-  "main.aux" 1747821778.39745 4560 07e7b87f9833a423ff6664b82128cfa4 "pdflatex"
-  "main.out" 1747821778.39833 5255 9d0999fefaadc37c5beabe2b02ee9a50 "pdflatex"
-  "main.tex" 1747821775.95341 8044 7ad300f312f1619df5c497c5a06e0219 ""
-  "main.toc" 1747821778.39858 2604 49da6fcca66bfb3a8d9d16958f855a80 "pdflatex"
+  "main.aux" 1747824256.36567 4560 3e1f1ba42096e9d2b5525fd681db7520 "pdflatex"
+  "main.out" 1747824256.36653 5255 129eb458291985da597473d5dbdda272 "pdflatex"
+  "main.tex" 1747824251.3921 10898 7a62786a67cda17780195ecfdd30575c ""
+  "main.toc" 1747824256.36679 2604 97f853f2b105a189a8764c1b2324e28b "pdflatex"
   (generated)
   "main.aux"
   "main.log"
