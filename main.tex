@@ -9,10 +9,20 @@
 \usepackage{geometry}
 \usepackage{xparse}
 \usepackage{float}
+\usepackage{listings}
+\usepackage{tabularx}
 
+%Listingkonfiguration
+\lstset{
+  basicstyle=\ttfamily\small,
+  breaklines=true,
+  frame=none,
+  language=MATLAB
+}
 
 \tcbuselibrary{listings, skins, breakable}
 
+%Template für Codeerklärungsbox
 \newtcolorbox{CodeErklaerungBox}[2][]{
   enhanced,
   breakable,
@@ -20,21 +30,14 @@
   colframe=gray,
   fonttitle=\bfseries,
   title=#2,
-  sidebyside, % Aktiviert nebeneinander
-  sidebyside align=center, % obenbündig
+  sidebyside,
+  sidebyside align=center,
   lefthand width=0.47\textwidth,
   righthand width=0.47\textwidth,
   #1
 }
 
-% Konfiguration für Code-Listing
-\usepackage{listings}
-\lstset{
-  basicstyle=\ttfamily\small,
-  breaklines=true,
-  frame=none,
-  language=MATLAB
-}
+
 
 \setlength{\fboxsep}{0.5pt}
 \setlength{\fboxrule}{1pt}
@@ -104,8 +107,56 @@
 a = 3;
                 \end{lstlisting}
                 \tcblower
-                Der Variable a wird der Wert 3 zugewiesen
+                Der Variable \textbf{a} wird der Wert \textbf{3} zugewiesen.
                 \end{CodeErklaerungBox}
+                \noindent Eine Zuweisung ohne ein Semikolon am Ende der Zeile bewirkt eine direkte Rückgabe des Variablenwertes.
+                \begin{CodeErklaerungBox}{Fließkommazahl}
+                \begin{lstlisting}
+a = 4.5;
+                \end{lstlisting}
+                \tcblower
+                Der Variable \textbf{a} wird der Wert \textbf{4.5} zugewiesen. Als Trennzeichen in MATLAB wird der Punkt an Stelle eines Kommas verwendet.
+                \end{CodeErklaerungBox}
+                \begin{CodeErklaerungBox}{Zeichenkette}
+                \begin{lstlisting}
+name = "Peter";
+                \end{lstlisting}
+                \tcblower
+                Der Variable \textbf{name} wird der String \textbf{Peter} zugewiesen.
+                \end{CodeErklaerungBox}
+                \begin{CodeErklaerungBox}{Logischer Wert}
+                \begin{lstlisting}
+isValid = true;
+                \end{lstlisting}
+                \tcblower
+                Der Variable \textbf{isValid} wird der boolsche Wert \textbf{true} zugewiesen.
+                \end{CodeErklaerungBox}
+                \begin{CodeErklaerungBox}{Automatische Typzuweisung}
+                \begin{lstlisting}
+a = pi;
+                \end{lstlisting}
+                \tcblower
+                Der Variable \textbf{a} wird die, in MATLAB vordefinierte Variable \textbf{$\pi$} zugewiesen.
+                \end{CodeErklaerungBox}
+                \noindent Neben pi gibt es weitere vordefinierte Variablen. Diesen kann zwar ebenfalls ein selbst definierter Wert zugewiesen werden, jedoch ist es nicht empfehlenswert.
+
+                \begin{tabularx}{0.95\textwidth}{|l| X| l|}
+                    \hline
+                    \textbf{Variable} & \textbf{Bedeutung} & \textbf{Wert} \\
+                    \hline
+                    \textbf{inf} & Unendlich & $\frac{1}{0}$ ergibt \textbf{inf} \\
+                    \hline
+                    \textbf{i} & Imaginäre Einheit & $\sqrt{-1}$ \\
+                    \hline
+                    \textbf{j} & Alternative imaginäre Einheit & $\sqrt{-1}$ \\
+                    \hline
+                    \textbf{NaN} & "Not a Number" - ungültiger Wert & $\frac{0}{0}$ ergibt \textbf{NaN} \\
+                    \hline
+                    \textbf{ans} & Ergebnis der letzten berechneten Zeile & z.B. \textbf{ans} = 42 \\
+                    \hline
+                    \textbf{true}/\textbf{false} & Boolsche Werte & 1 bzw. 0 \\
+                    \hline
+                \end{tabularx}
         \subsection{Mathematische Grundoperationen}
         \subsection{Kommentare}
         \subsection{Komplexe Zahlen}

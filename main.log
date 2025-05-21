@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.4.29)  21 MAY 2025 10:26
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.4.29)  21 MAY 2025 11:51
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -309,9 +309,7 @@ Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \float@box=\box70
 \@float@everytoks=\toks37
 \@floatcapt=\box71
-) (/usr/local/texlive/2024/texmf-dist/tex/latex/tcolorbox/tcblistings.code.tex
-Library (tcolorbox): 'tcblistings.code.tex' version '6.2.0'
-(/usr/local/texlive/2024/texmf-dist/tex/latex/listings/listings.sty
+) (/usr/local/texlive/2024/texmf-dist/tex/latex/listings/listings.sty
 \lst@mode=\count286
 \lst@gtempboxa=\box72
 \lst@token=\toks38
@@ -335,50 +333,73 @@ File: lstmisc.sty 2024/03/11 1.10a (Carsten Heinz)
 File: listings.cfg 2024/03/11 1.10a listings configuration
 ))
 Package: listings 2024/03/11 1.10a (Carsten Heinz)
- (/usr/local/texlive/2024/texmf-dist/tex/latex/tcolorbox/tcblistingscore.code.tex
+ (/usr/local/texlive/2024/texmf-dist/tex/latex/tools/tabularx.sty
+Package: tabularx 2023/07/08 v2.11c `tabularx' package (DPC)
+ (/usr/local/texlive/2024/texmf-dist/tex/latex/tools/array.sty
+Package: array 2023/10/16 v2.5g Tabular extension package (FMi)
+\col@sep=\dimen265
+\ar@mcellbox=\box74
+\extrarowheight=\dimen266
+\NC@list=\toks39
+\extratabsurround=\skip50
+\backup@length=\skip51
+\ar@cellbox=\box75
+)
+\TX@col@width=\dimen267
+\TX@old@table=\dimen268
+\TX@old@col=\dimen269
+\TX@target=\dimen270
+\TX@delta=\dimen271
+\TX@cols=\count294
+\TX@ftn=\toks40
+) (/usr/local/texlive/2024/texmf-dist/tex/latex/listings/lstlang1.sty
+File: lstlang1.sty 2024/03/11 1.10a listings language file
+) (/usr/local/texlive/2024/texmf-dist/tex/latex/tcolorbox/tcblistings.code.tex
+Library (tcolorbox): 'tcblistings.code.tex' version '6.2.0'
+(/usr/local/texlive/2024/texmf-dist/tex/latex/tcolorbox/tcblistingscore.code.tex
 Library (tcolorbox): 'tcblistingscore.code.tex' version '6.2.0'
 (/usr/local/texlive/2024/texmf-dist/tex/latex/tcolorbox/tcbprocessing.code.tex
 Library (tcolorbox): 'tcbprocessing.code.tex' version '6.2.0'
 )
-\c@tcblisting=\count294
+\c@tcblisting=\count295
 )) (/usr/local/texlive/2024/texmf-dist/tex/latex/tcolorbox/tcbskins.code.tex
 Library (tcolorbox): 'tcbskins.code.tex' version '6.2.0'
 (/usr/local/texlive/2024/texmf-dist/tex/latex/pgf/frontendlayer/tikz.sty (/usr/local/texlive/2024/texmf-dist/tex/latex/pgf/utilities/pgffor.sty (/usr/local/texlive/2024/texmf-dist/tex/latex/pgf/utilities/pgfkeys.sty (/usr/local/texlive/2024/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex)) (/usr/local/texlive/2024/texmf-dist/tex/latex/pgf/math/pgfmath.sty (/usr/local/texlive/2024/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex)) (/usr/local/texlive/2024/texmf-dist/tex/generic/pgf/utilities/pgffor.code.tex
 Package: pgffor 2023-01-15 v3.1.10 (3.1.10)
-\pgffor@iter=\dimen265
-\pgffor@skip=\dimen266
-\pgffor@stack=\toks39
-\pgffor@toks=\toks40
+\pgffor@iter=\dimen272
+\pgffor@skip=\dimen273
+\pgffor@stack=\toks41
+\pgffor@toks=\toks42
 )) (/usr/local/texlive/2024/texmf-dist/tex/generic/pgf/frontendlayer/tikz/tikz.code.tex
 Package: tikz 2023-01-15 v3.1.10 (3.1.10)
  (/usr/local/texlive/2024/texmf-dist/tex/generic/pgf/libraries/pgflibraryplothandlers.code.tex
 File: pgflibraryplothandlers.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgf@plot@mark@count=\count295
-\pgfplotmarksize=\dimen267
+\pgf@plot@mark@count=\count296
+\pgfplotmarksize=\dimen274
 )
-\tikz@lastx=\dimen268
-\tikz@lasty=\dimen269
-\tikz@lastxsaved=\dimen270
-\tikz@lastysaved=\dimen271
-\tikz@lastmovetox=\dimen272
-\tikz@lastmovetoy=\dimen273
-\tikzleveldistance=\dimen274
-\tikzsiblingdistance=\dimen275
-\tikz@figbox=\box74
-\tikz@figbox@bg=\box75
-\tikz@tempbox=\box76
-\tikz@tempbox@bg=\box77
-\tikztreelevel=\count296
-\tikznumberofchildren=\count297
-\tikznumberofcurrentchild=\count298
-\tikz@fig@count=\count299
+\tikz@lastx=\dimen275
+\tikz@lasty=\dimen276
+\tikz@lastxsaved=\dimen277
+\tikz@lastysaved=\dimen278
+\tikz@lastmovetox=\dimen279
+\tikz@lastmovetoy=\dimen280
+\tikzleveldistance=\dimen281
+\tikzsiblingdistance=\dimen282
+\tikz@figbox=\box76
+\tikz@figbox@bg=\box77
+\tikz@tempbox=\box78
+\tikz@tempbox@bg=\box79
+\tikztreelevel=\count297
+\tikznumberofchildren=\count298
+\tikznumberofcurrentchild=\count299
+\tikz@fig@count=\count300
  (/usr/local/texlive/2024/texmf-dist/tex/generic/pgf/modules/pgfmodulematrix.code.tex
 File: pgfmodulematrix.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgfmatrixcurrentrow=\count300
-\pgfmatrixcurrentcolumn=\count301
-\pgf@matrix@numberofcolumns=\count302
+\pgfmatrixcurrentrow=\count301
+\pgfmatrixcurrentcolumn=\count302
+\pgf@matrix@numberofcolumns=\count303
 )
-\tikz@expandcount=\count303
+\tikz@expandcount=\count304
  (/usr/local/texlive/2024/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarytopaths.code.tex
 File: tikzlibrarytopaths.code.tex 2023-01-15 v3.1.10 (3.1.10)
 ))) (/usr/local/texlive/2024/texmf-dist/tex/latex/tikzfill/tikzfill.image.sty
@@ -387,7 +408,7 @@ Package: tikzfill.image 2023/08/08 v1.0.1 Image filling library for TikZ
 Package: tikzfill-common 2023/08/08 v1.0.1 Auxiliary code for tikzfill
 ) (/usr/local/texlive/2024/texmf-dist/tex/latex/tikzfill/tikzlibraryfill.image.code.tex
 File: tikzlibraryfill.image.code.tex 2023/08/08 v1.0.1 Image filling library
-\l__tikzfill_img_box=\box78
+\l__tikzfill_img_box=\box80
 )) (/usr/local/texlive/2024/texmf-dist/tex/latex/tcolorbox/tcbskinsjigsaw.code.tex
 Library (tcolorbox): 'tcbskinsjigsaw.code.tex' version '6.2.0'
 )) (/usr/local/texlive/2024/texmf-dist/tex/latex/tcolorbox/tcbbreakable.code.tex
@@ -400,41 +421,39 @@ Package: ltxcmds 2023-12-04 v1.26 LaTeX kernel commands for general use (HO)
 Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
 ))
 Package pdfcol Info: New color stack `tcb@breakable' = 1 on input line 23.
-\tcb@testbox=\box79
-\tcb@totalupperbox=\box80
-\tcb@totallowerbox=\box81
-) (/usr/local/texlive/2024/texmf-dist/tex/latex/listings/lstlang1.sty
-File: lstlang1.sty 2024/03/11 1.10a listings language file
+\tcb@testbox=\box81
+\tcb@totalupperbox=\box82
+\tcb@totallowerbox=\box83
 ) (./main.aux)
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 42.
-LaTeX Font Info:    ... okay on input line 42.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 42.
-LaTeX Font Info:    ... okay on input line 42.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 42.
-LaTeX Font Info:    ... okay on input line 42.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 42.
-LaTeX Font Info:    ... okay on input line 42.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 42.
-LaTeX Font Info:    ... okay on input line 42.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 42.
-LaTeX Font Info:    ... okay on input line 42.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 42.
-LaTeX Font Info:    ... okay on input line 42.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 45.
+LaTeX Font Info:    ... okay on input line 45.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 45.
+LaTeX Font Info:    ... okay on input line 45.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 45.
+LaTeX Font Info:    ... okay on input line 45.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 45.
+LaTeX Font Info:    ... okay on input line 45.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 45.
+LaTeX Font Info:    ... okay on input line 45.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 45.
+LaTeX Font Info:    ... okay on input line 45.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 45.
+LaTeX Font Info:    ... okay on input line 45.
  (/usr/local/texlive/2024/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count304
-\scratchdimen=\dimen276
-\scratchbox=\box82
-\nofMPsegments=\count305
-\nofMParguments=\count306
-\everyMPshowfont=\toks41
-\MPscratchCnt=\count307
-\MPscratchDim=\dimen277
-\MPnumerator=\count308
-\makeMPintoPDFobject=\count309
-\everyMPtoPDFconversion=\toks42
+\scratchcounter=\count305
+\scratchdimen=\dimen283
+\scratchbox=\box84
+\nofMPsegments=\count306
+\nofMParguments=\count307
+\everyMPshowfont=\toks43
+\MPscratchCnt=\count308
+\MPscratchDim=\dimen284
+\MPnumerator=\count309
+\makeMPintoPDFobject=\count310
+\everyMPtoPDFconversion=\toks44
 ) (/usr/local/texlive/2024/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
@@ -475,11 +494,11 @@ File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-\c@lstlisting=\count310
+\c@lstlisting=\count311
 <Bilder/Helmut Schmidt Universität-a89973ff.png, id=4, 465.99094pt x 335.00156pt>
 File: Bilder/Helmut Schmidt Universität-a89973ff.png Graphic file (type png)
 <use Bilder/Helmut Schmidt Universität-a89973ff.png>
-Package pdftex.def Info: Bilder/Helmut Schmidt Universität-a89973ff.png  used on input line 46.
+Package pdftex.def Info: Bilder/Helmut Schmidt Universität-a89973ff.png  used on input line 49.
 (pdftex.def)             Requested size: 200.0pt x 143.77693pt.
 [1
 
@@ -498,32 +517,44 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 <Bilder/CommandWindow.png, id=19, 2025.5675pt x 459.7175pt>
 File: Bilder/CommandWindow.png Graphic file (type png)
 <use Bilder/CommandWindow.png>
-Package pdftex.def Info: Bilder/CommandWindow.png  used on input line 73.
+Package pdftex.def Info: Bilder/CommandWindow.png  used on input line 76.
 (pdftex.def)             Requested size: 338.58632pt x 76.83919pt.
 <Bilder/Editor.png, id=20, 845.0772pt x 408.0846pt>
 File: Bilder/Editor.png Graphic file (type png)
 <use Bilder/Editor.png>
-Package pdftex.def Info: Bilder/Editor.png  used on input line 80.
+Package pdftex.def Info: Bilder/Editor.png  used on input line 83.
 (pdftex.def)             Requested size: 338.58632pt x 163.49869pt.
  [2{/usr/local/texlive/2024/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc} <./Bilder/CommandWindow.png>]
 <Bilder/Workspace.png, id=27, 568.1225pt x 1353.055pt>
 File: Bilder/Workspace.png Graphic file (type png)
 <use Bilder/Workspace.png>
-Package pdftex.def Info: Bilder/Workspace.png  used on input line 87.
+Package pdftex.def Info: Bilder/Workspace.png  used on input line 90.
 (pdftex.def)             Requested size: 96.73788pt x 230.38792pt.
 <Bilder/CurrentFolder.png, id=28, 694.595pt x 965.6075pt>
 File: Bilder/CurrentFolder.png Graphic file (type png)
 <use Bilder/CurrentFolder.png>
-Package pdftex.def Info: Bilder/CurrentFolder.png  used on input line 94.
+Package pdftex.def Info: Bilder/CurrentFolder.png  used on input line 97.
 (pdftex.def)             Requested size: 145.11053pt x 201.72272pt.
 
 Underfull \vbox (badness 1248) has occurred while \output is active []
 
  [3 <./Bilder/Editor.png> <./Bilder/Workspace.png>] [4 <./Bilder/CurrentFolder.png>]
-LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 103.
+LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 106.
  (/usr/local/texlive/2024/texmf-dist/tex/latex/base/t1cmtt.fd
 File: t1cmtt.fd 2023/04/13 v2.5m Standard LaTeX font definitions
 )
+Underfull \hbox (badness 1354) in paragraph at lines 118--119
+\T1/cmr/m/n/12 Als Trennze-ichen in MAT-LAB wird der
+ []
+
+LaTeX Font Info:    Font shape `T1/cmtt/bx/n' in size <10.95> not available
+(Font)              Font shape `T1/cmtt/m/n' tried instead on input line 136.
+
+Underfull \hbox (badness 2080) in paragraph at lines 139--140
+[]\T1/cmr/m/n/12 Der Vari-able \T1/cmr/bx/n/12 a \T1/cmr/m/n/12 wird die, in MAT-LAB
+ []
+
+
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [5] [6] (./main.aux)
@@ -533,18 +564,18 @@ L3 programming layer <2024-03-14>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 20434 strings out of 474104
- 425482 string characters out of 5743467
- 1936493 words of memory out of 5000000
- 42479 multiletter control sequences out of 15000+600000
+ 20568 strings out of 474104
+ 427579 string characters out of 5743467
+ 1963493 words of memory out of 5000000
+ 42609 multiletter control sequences out of 15000+600000
  567943 words of font info for 56 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  83i,8n,93p,497b,1876s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</usr/local/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfbx1440.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfbx1728.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfbx2488.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sftt1095.pfb>
-Output written on main.pdf (7 pages, 993752 bytes).
+</usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfbx1440.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfbx1728.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfbx2488.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sftt1095.pfb>
+Output written on main.pdf (7 pages, 1035083 bytes).
 PDF statistics:
- 77 PDF objects out of 1000 (max. 8388607)
- 44 compressed objects within 1 object stream
+ 97 PDF objects out of 1000 (max. 8388607)
+ 56 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  38 words of extra memory for PDF output out of 10000 (max. 10000000)
 
