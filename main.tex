@@ -192,16 +192,23 @@ c = a / b;
                 \tcblower
                 In der Variable \texttt{c} wird der Quotient aus \texttt{a} und \texttt{b} gespeichert.
                 \end{CodeErklaerungBox}
-                \begin{CodeErklaerungBox}{Ganzzahlige Division}
+                \begin{CodeErklaerungBox}{Abrunden}
                 \begin{lstlisting}
 c = floor(a / b);
                 \end{lstlisting}
                 \tcblower
-                In der Variable \texttt{c} wird das Ergebnis der Division von \texttt{a} und \texttt{b} gerundet zur nächsten Ganzzahl gespeichert.
+                In der Variable \texttt{c} wird das abgerundete Ergebnis der Division von \texttt{a} und \texttt{b} gespeichert.
+                \end{CodeErklaerungBox}
+                \begin{CodeErklaerungBox}{Aufrunden}
+                \begin{lstlisting}
+c = ceil(a / b);
+                \end{lstlisting}
+                \tcblower
+                In der Variable \texttt{c} wird das aufgerundete Ergebnis der Division von \texttt{a} und \texttt{b} gespeichert.
                 \end{CodeErklaerungBox}
                 \begin{CodeErklaerungBox}{Modulo}
                 \begin{lstlisting}
-c = mod(a / b);
+c = mod(a,b);
                 \end{lstlisting}
                 \tcblower
                 In der Variable \texttt{c} wird der Rest der Division von \texttt{a} und \texttt{b} gespeichert.
@@ -309,7 +316,7 @@ Z_C = 1 / (1j * omega * C);
 
 Z_Gesamt = Z_R + Z_L + Z_C;
                 \end{lstlisting}
-                \noindent Wenn Sie alles richtig gemacht haben, sollten Sie für $Z_{Gesamt}$ einen Wert von 10 - 16,12i erhalten.
+                \noindent Wenn Sie alles richtig gemacht haben, sollten Sie für $Z_{Gesamt}$ einen Wert von 10 - 16,12j erhalten.
                 
     \section{Vektoren und Matrizen}
         \subsection{Erstellen von Vektoren und Matrizen}
