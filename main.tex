@@ -235,7 +235,7 @@ z = 2 + 3*i;
                 \tcblower
                 Erzeugt die komplexe Zahl \texttt{z = 2 + 3i}. 
                 \end{CodeErklaerungBox}
-                Wie unter 2.1 beschrieben, kann \texttt{j} analog zu \texttt{i} verwendet werden.
+                \noindent Wie unter 2.1 beschrieben, kann \texttt{j} analog zu \texttt{i} verwendet werden.
                 \begin{CodeErklaerungBox}{Real- und Imaginärteil}
                 \begin{lstlisting}
 re = real(z);
@@ -274,7 +274,24 @@ z_polar = r * exp(1i*phi);
                 \tcblower
                 Gibt die komplexe Zahl \texttt{z} in Polarform zurück. \texttt{exp(1i * phi)} steht für $e^{i \cdot \phi}$
                 \end{CodeErklaerungBox}
-        \subsection{Kommentare}
+        \subsection{Beispielaufgabe}
+                \subsubsection*{Aufgabe 1}
+                Eine elektrische Schaltung besteht aus einem Widerstand mit $R=10\Omega$ einer Spule mit $L=0,05H$ und einem Kondensator mit $C=100\mu F$. Die Reihenschaltung der drei Elemente wird bei einer Frequenz von $f=50Hz$ betrieben. Berechnen Sie die Gesamtimpedanz $Z$ dieser Schaltung.
+                \subsubsection*{Lösung 1}
+                \begin{lstlisting}
+R = 10;
+L = 0.05;
+C = 100e-6;
+f = 50;
+omega = 2 * pi * f;
+
+Z_R = R;
+Z_L = 1j * omega * L;
+Z_C = 1 / (1j * omega * C);
+
+Z_Gesamt = Z_R + Z_L + Z_C;
+                \end{lstlisting}
+                \noindent Wenn Sie alles richtig gemacht haben, sollten Sie für $Z_{Gesamt}$ einen Wert von 10 - 16,12i erhalten.
     \section{Vektoren und Matrizen}
         \subsection{Erstellen von Vektoren und Matrizen}
         \subsection{Zugriff auf Elemente und Indizierung}
