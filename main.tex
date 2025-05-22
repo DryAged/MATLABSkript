@@ -1,7 +1,7 @@
 \documentclass[12pt, a4paper, twoside]{article}
 
 \usepackage{graphicx}
-\usepackage[a4paper, left=2cm, right=2cm, top=2.5cm, bottom=3cm]{geometry}
+\usepackage[a4paper, left=2.5cm, right=2.5cm, top=2.5cm, bottom=3cm]{geometry}
 \usepackage[utf8]{inputenc}
 \usepackage[T1]{fontenc}
 \usepackage{tcolorbox}
@@ -13,6 +13,7 @@
 \usepackage{tabularx}
 \usepackage{hyperref}
 \usepackage[dvipsnames]{xcolor}
+\usepackage[ngerman]{babel}
 
 %Listingkonfiguration
 \lstset{
@@ -76,14 +77,14 @@
             \subsubsection*{Command Window}
                 \begin{figure}[H]
                     \centering
-                    \fbox{\includegraphics[width=0.7\textwidth]{Bilder/CommandWindow.png}}
+                    \fbox{\includegraphics[width=0.95\textwidth]{Bilder/CommandWindow.png}}
                     \caption{Command Window in MATLAB}
                 \end{figure}
                 Im Command Window können Befehle direkt eingegeben werden. Da Ergebnisse von Berechnungen unverzüglich angezeigt werden, können hier einzelne Befehle idealerweise getestet werden.
             \subsubsection*{Editor}
                 \begin{figure}[H]
                     \centering
-                    \fbox{\includegraphics[width=0.7\textwidth]{Bilder/Editor.png}}
+                    \fbox{\includegraphics[width=0.95\textwidth]{Bilder/Editor.png}}
                     \caption{Editor in MATLAB}
                 \end{figure}
                 Im Editor können komplette Skripte und Funktionen geschrieben, gespeichert und ausgeführt werden. Er unterstützt das Debugging mittels Breakpoints und Schritt-für-Schritt Ausführung.
@@ -227,12 +228,58 @@ c = abs(-a);
                 In der Variable \texttt{c} wird der Betrag von \texttt{-a} gespeichert.
                 \end{CodeErklaerungBox}
         \subsection{Komplexe Zahlen}
+        \begin{CodeErklaerungBox}{Definition der komplexen Zahl}
+                \begin{lstlisting}
+z = 2 + 3*i;
+                \end{lstlisting}
+                \tcblower
+                Erzeugt die komplexe Zahl \texttt{z = 2 + 3i}. 
+                \end{CodeErklaerungBox}
+                Wie unter 2.1 beschrieben, kann \texttt{j} analog zu \texttt{i} verwendet werden.
+                \begin{CodeErklaerungBox}{Real- und Imaginärteil}
+                \begin{lstlisting}
+re = real(z);
+im = imag(z);
+                \end{lstlisting}
+                \tcblower
+                \texttt{real()} gibt den Realteil von \texttt{z} zurück und \texttt{imag()} den Imaginärteil.
+                \end{CodeErklaerungBox}
+                \begin{CodeErklaerungBox}{Betrag}
+                \begin{lstlisting}
+r = abs(z);
+                \end{lstlisting}
+                \tcblower
+                Berechnet den Betrag von \texttt{z} , also $\sqrt{Im(z)^2 + Re(z)^2}$.
+                \end{CodeErklaerungBox}
+                \begin{CodeErklaerungBox}{Winkel}
+                \begin{lstlisting}
+phi = angle(z);
+                \end{lstlisting}
+                \tcblower
+                Gibt den Winkel von \texttt{z} im Bogenmaß zurück.
+                \end{CodeErklaerungBox}
+                \begin{CodeErklaerungBox}{Konjugation}
+                \begin{lstlisting}
+z_conj = conj(z);
+                \end{lstlisting}
+                \tcblower
+                Gibt das konjugiert Komplexe der Variable \texttt{z} also $z^* = Re(z) - i\cdot Im(z)$ zurück.
+                \end{CodeErklaerungBox}
+                \begin{CodeErklaerungBox}{Darstellung in Polarform}
+                \begin{lstlisting}
+r = abs(z);
+phi = angle(z);
+z_polar = r * exp(1i*phi);
+                \end{lstlisting}
+                \tcblower
+                Gibt die komplexe Zahl \texttt{z} in Polarform zurück. \texttt{exp(1i * phi)} steht für $e^{i \cdot \phi}$
+                \end{CodeErklaerungBox}
         \subsection{Kommentare}
     \section{Vektoren und Matrizen}
         \subsection{Erstellen von Vektoren und Matrizen}
         \subsection{Zugriff auf Elemente und Indizierung}
         \subsection{Matrixoperationen}
-        \subsection{nuetzliche MATLAB Funktionen}
+        \subsection{nützliche MATLAB Funktionen}
     \section{Programmiergrundlagen}
         \subsection{Skripte}
         \subsection{Funktionen}
@@ -244,9 +291,9 @@ c = abs(-a);
     \section{Visualisierung von Daten}
         \subsection{Einfache Diagramme}
         \subsection{Mehrere Kurven in einem Diagramm}
-        \subsection{Mehrere Diagramme in einer UEbersicht}
+        \subsection{Mehrere Diagramme in einer Übersicht}
         \subsection{Grafische Anpassungen}
     \section{Anhang}
         \subsection{Dokumentation in MATLAB}
-        \subsection{Uebersicht wichtiger MATLAB Befehle}
+        \subsection{Übersicht wichtiger MATLAB Befehle}
 \end{document}
