@@ -274,10 +274,28 @@ z_polar = r * exp(1i*phi);
                 \tcblower
                 Gibt die komplexe Zahl \texttt{z} in Polarform zurück. \texttt{exp(1i * phi)} steht für $e^{i \cdot \phi}$
                 \end{CodeErklaerungBox}
-        \subsection{Beispielaufgabe}
+                \newpage
+        \subsection{Beispielaufgaben}
                 \subsubsection*{Aufgabe 1}
-                Eine elektrische Schaltung besteht aus einem Widerstand mit $R=10\Omega$ einer Spule mit $L=0,05H$ und einem Kondensator mit $C=100\mu F$. Die Reihenschaltung der drei Elemente wird bei einer Frequenz von $f=50Hz$ betrieben. Berechnen Sie die Gesamtimpedanz $Z$ dieser Schaltung.
+                Gegeben sei die Funktion $f(x) = x^2 +4x +5$. Berechnen Sie die komplexen Nullstellen der Funktion und lassen Sie sich jeweils Betrag und Phase ausgeben.
                 \subsubsection*{Lösung 1}
+                \begin{lstlisting}
+p = 4;
+q = 5;
+
+x1 = -p/2 + sqrt((p/2)^2 - q);
+x2 = -p/2 - sqrt((p/2)^2 - q);
+
+r1 = abs(x1);
+r2 = abs(x2);
+
+phi1 = angle(x1);
+phi2 = angle(x2);
+
+                \end{lstlisting}
+                \subsubsection*{Aufgabe 2}
+                Eine elektrische Schaltung besteht aus einem Widerstand mit $R=10\Omega$ einer Spule mit $L=0,05H$ und einem Kondensator mit $C=100\mu F$. Die Reihenschaltung der drei Elemente wird bei einer Frequenz von $f=50Hz$ betrieben. Berechnen Sie die Gesamtimpedanz $Z$ dieser Schaltung.
+                \subsubsection*{Lösung 2}
                 \begin{lstlisting}
 R = 10;
 L = 0.05;
@@ -292,6 +310,7 @@ Z_C = 1 / (1j * omega * C);
 Z_Gesamt = Z_R + Z_L + Z_C;
                 \end{lstlisting}
                 \noindent Wenn Sie alles richtig gemacht haben, sollten Sie für $Z_{Gesamt}$ einen Wert von 10 - 16,12i erhalten.
+                
     \section{Vektoren und Matrizen}
         \subsection{Erstellen von Vektoren und Matrizen}
         \subsection{Zugriff auf Elemente und Indizierung}
