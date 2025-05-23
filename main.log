@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.4.29)  23 MAY 2025 13:52
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.4.29)  23 MAY 2025 14:04
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -541,7 +541,7 @@ Package pdfcol Info: New color stack `tcb@breakable' = 1 on input line 23.
 \tcb@testbox=\box81
 \tcb@totalupperbox=\box82
 \tcb@totallowerbox=\box83
-) (./main.aux)
+) (./main.aux (./01_Einführung.aux) (./02_Grundlegende_Operationen.aux) (./03_Vektoren_und_Matrizen.aux) (./04_Programmiergrundlagen.aux) (./05_Dateien_und_Daten.aux) (./06_Visualisierung.aux) (./07_Anhang.aux))
 \openout1 = `main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 61.
@@ -645,51 +645,95 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has b
                    \relax 
 l.74     \newpage
                   [1]
+\openout2 = `01_Einführung.aux'.
+
+ (./01_Einführung.tex
 <Bilder/CommandWindow.png, id=173, 2025.5675pt x 459.7175pt>
 File: Bilder/CommandWindow.png Graphic file (type png)
 <use Bilder/CommandWindow.png>
-Package pdftex.def Info: Bilder/CommandWindow.png  used on input line 92.
+Package pdftex.def Info: Bilder/CommandWindow.png  used on input line 18.
 (pdftex.def)             Requested size: 432.48051pt x 98.14989pt.
 <Bilder/Editor.png, id=174, 845.0772pt x 408.0846pt>
 File: Bilder/Editor.png Graphic file (type png)
 <use Bilder/Editor.png>
-Package pdftex.def Info: Bilder/Editor.png  used on input line 99.
+Package pdftex.def Info: Bilder/Editor.png  used on input line 25.
 (pdftex.def)             Requested size: 432.48051pt x 208.8427pt.
- [2{/usr/local/texlive/2024/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc} <./Bilder/CommandWindow.png>]
+ [2
+
+{/usr/local/texlive/2024/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc} <./Bilder/CommandWindow.png>]
 <Bilder/Workspace.png, id=185, 568.1225pt x 1353.055pt>
 File: Bilder/Workspace.png Graphic file (type png)
 <use Bilder/Workspace.png>
-Package pdftex.def Info: Bilder/Workspace.png  used on input line 106.
+Package pdftex.def Info: Bilder/Workspace.png  used on input line 32.
 (pdftex.def)             Requested size: 91.04742pt x 216.82355pt.
 <Bilder/CurrentFolder.png, id=186, 694.595pt x 965.6075pt>
 File: Bilder/CurrentFolder.png Graphic file (type png)
 <use Bilder/CurrentFolder.png>
-Package pdftex.def Info: Bilder/CurrentFolder.png  used on input line 113.
+Package pdftex.def Info: Bilder/CurrentFolder.png  used on input line 39.
 (pdftex.def)             Requested size: 136.57462pt x 189.86186pt.
- [3 <./Bilder/Editor.png> <./Bilder/Workspace.png>] [4 <./Bilder/CurrentFolder.png>]
-LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 122.
+ [3 <./Bilder/Editor.png> <./Bilder/Workspace.png>] [4 <./Bilder/CurrentFolder.png>])
+\openout2 = `02_Grundlegende_Operationen.aux'.
+
+ (./02_Grundlegende_Operationen.tex
+LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 4.
  (/usr/local/texlive/2024/texmf-dist/tex/latex/base/t1cmtt.fd
 File: t1cmtt.fd 2023/04/13 v2.5m Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `T1/cmtt/bx/n' in size <10.95> not available
-(Font)              Font shape `T1/cmtt/m/n' tried instead on input line 152.
+(Font)              Font shape `T1/cmtt/m/n' tried instead on input line 34.
 
 Underfull \vbox (badness 1189) has occurred while \output is active []
 
- [5] [6]
-Underfull \hbox (badness 5217) in paragraph at lines 271--272
+ [5
+
+
+
+] [6]
+Underfull \hbox (badness 5217) in paragraph at lines 153--154
 []\T1/cmr/m/n/12 Berechnet den Be-trag von \T1/cmtt/m/n/12 z \T1/cmr/m/n/12 , al-so
  []
 
-[7]
-Underfull \vbox (badness 10000) has occurred while \output is active []
+[7]) [8]
+\openout2 = `03_Vektoren_und_Matrizen.aux'.
 
- [8]
-Underfull \hbox (badness 1629) in paragraph at lines 385--386
+ (./03_Vektoren_und_Matrizen.tex
+Underfull \hbox (badness 1629) in paragraph at lines 50--51
 []\T1/cmr/m/n/12 Erzeugt ei-ne 0-Matrix der Gr�-�e \T1/cmtt/m/n/12 m\T1/cmr/m/n/12 x\T1/cmtt/m/n/12 n\T1/cmr/m/n/12 .
  []
 
-[9] [10] (./main.aux)
+) [9
+
+
+
+] [10]
+\openout2 = `04_Programmiergrundlagen.aux'.
+
+ (./04_Programmiergrundlagen.tex) [11
+
+
+
+]
+\openout2 = `05_Dateien_und_Daten.aux'.
+
+ (./05_Dateien_und_Daten.tex) [12
+
+
+
+]
+\openout2 = `06_Visualisierung.aux'.
+
+ (./06_Visualisierung.tex) [13
+
+
+
+]
+\openout2 = `07_Anhang.aux'.
+
+ (./07_Anhang.tex) [14
+
+
+
+] (./main.aux (./01_Einführung.aux) (./02_Grundlegende_Operationen.aux) (./03_Vektoren_und_Matrizen.aux) (./04_Programmiergrundlagen.aux) (./05_Dateien_und_Daten.aux) (./06_Visualisierung.aux) (./07_Anhang.aux))
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-03-14>
@@ -698,18 +742,18 @@ Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: 49E3EFAA78F4F112978C898702E21A9A;5279.
  ) 
 Here is how much of TeX's memory you used:
- 28354 strings out of 474104
- 551261 string characters out of 5743467
- 2030493 words of memory out of 5000000
- 50149 multiletter control sequences out of 15000+600000
+ 28533 strings out of 474104
+ 557268 string characters out of 5743467
+ 2023493 words of memory out of 5000000
+ 50275 multiletter control sequences out of 15000+600000
  567943 words of font info for 56 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  83i,9n,93p,497b,1886s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfbx1440.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfbx1728.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfbx2488.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sftt1095.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sftt1200.pfb>
-Output written on main.pdf (11 pages, 1130704 bytes).
+Output written on main.pdf (15 pages, 1131968 bytes).
 PDF statistics:
- 420 PDF objects out of 1000 (max. 8388607)
- 364 compressed objects within 4 object streams
- 137 named destinations out of 1000 (max. 500000)
+ 438 PDF objects out of 1000 (max. 8388607)
+ 378 compressed objects within 4 object streams
+ 141 named destinations out of 1000 (max. 500000)
  278 words of extra memory for PDF output out of 10000 (max. 10000000)
 
