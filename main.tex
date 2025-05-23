@@ -6,7 +6,6 @@
 \usepackage[T1]{fontenc}
 \usepackage{tcolorbox}
 \usepackage{adjustbox}
-\usepackage{geometry}
 \usepackage{xparse}
 \usepackage{float}
 \usepackage{listings}
@@ -38,6 +37,19 @@
   lefthand width=0.48\textwidth,
   righthand width=0.48\textwidth,
   #1
+}
+\newtcolorbox{Codelösung}[1]{%
+  enhanced,
+  title={#1},
+  colback=white,
+  colframe=MidnightBlue,
+  boxrule=0.5pt,
+  arc=2mm,
+  top=1mm,
+  bottom=1mm,
+  left=1mm,
+  right=1mm,
+  fonttitle=\bfseries
 }
 
 
@@ -285,8 +297,8 @@ z_polar = r * exp(1i*phi);
         \subsection{Beispielaufgaben}
                 \subsubsection*{Aufgabe 1}
                 Gegeben sei die Funktion $f(x) = x^2 +4x +5$. Berechnen Sie die komplexen Nullstellen der Funktion und lassen Sie sich jeweils Betrag und Phase ausgeben.
-                \subsubsection*{Lösung 1}
-                \begin{lstlisting}
+                \begin{Codelösung}{Lösung 1}
+                    \begin{lstlisting}
 p = 4;
 q = 5;
 
@@ -298,12 +310,15 @@ r2 = abs(x2);
 
 phi1 = angle(x1);
 phi2 = angle(x2);
+                    \end{lstlisting}
+                    
+                \end{Codelösung}
 
-                \end{lstlisting}
+
                 \subsubsection*{Aufgabe 2}
                 Eine elektrische Schaltung besteht aus einem Widerstand mit $R=10\Omega$ einer Spule mit $L=0,05H$ und einem Kondensator mit $C=100\mu F$. Die Reihenschaltung der drei Elemente wird bei einer Frequenz von $f=50Hz$ betrieben. Berechnen Sie die Gesamtimpedanz $Z$ dieser Schaltung.
-                \subsubsection*{Lösung 2}
-                \begin{lstlisting}
+                \begin{Codelösung}{Lösung 2}
+                    \begin{lstlisting}
 R = 10;
 L = 0.05;
 C = 100e-6;
@@ -315,7 +330,9 @@ Z_L = 1j * omega * L;
 Z_C = 1 / (1j * omega * C);
 
 Z_Gesamt = Z_R + Z_L + Z_C;
-                \end{lstlisting}
+                    \end{lstlisting}   
+                \end{Codelösung}
+
                 \noindent Wenn Sie alles richtig gemacht haben, sollten Sie für $Z_{Gesamt}$ einen Wert von 10 - 16,12j erhalten.
                 
     \section{Vektoren und Matrizen}

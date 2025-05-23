@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.4.29)  22 MAY 2025 16:20
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.4.29)  23 MAY 2025 10:46
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -544,24 +544,24 @@ Package pdfcol Info: New color stack `tcb@breakable' = 1 on input line 23.
 ) (./main.aux)
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 49.
-LaTeX Font Info:    ... okay on input line 49.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 49.
-LaTeX Font Info:    ... okay on input line 49.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 49.
-LaTeX Font Info:    ... okay on input line 49.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 49.
-LaTeX Font Info:    ... okay on input line 49.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 49.
-LaTeX Font Info:    ... okay on input line 49.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 49.
-LaTeX Font Info:    ... okay on input line 49.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 49.
-LaTeX Font Info:    ... okay on input line 49.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 49.
-LaTeX Font Info:    ... okay on input line 49.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 49.
-LaTeX Font Info:    ... okay on input line 49.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 61.
+LaTeX Font Info:    ... okay on input line 61.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 61.
+LaTeX Font Info:    ... okay on input line 61.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 61.
+LaTeX Font Info:    ... okay on input line 61.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 61.
+LaTeX Font Info:    ... okay on input line 61.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 61.
+LaTeX Font Info:    ... okay on input line 61.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 61.
+LaTeX Font Info:    ... okay on input line 61.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 61.
+LaTeX Font Info:    ... okay on input line 61.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 61.
+LaTeX Font Info:    ... okay on input line 61.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 61.
+LaTeX Font Info:    ... okay on input line 61.
  (/usr/local/texlive/2024/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count318
@@ -616,7 +616,7 @@ File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 \c@lstlisting=\count324
-Package hyperref Info: Link coloring OFF on input line 49.
+Package hyperref Info: Link coloring OFF on input line 61.
 (./main.out) (./main.out)
 \@outlinefile=\write4
 \openout4 = `main.out'.
@@ -624,7 +624,7 @@ Package hyperref Info: Link coloring OFF on input line 49.
 <Bilder/Helmut Schmidt Universität-a89973ff.png, id=127, 465.99094pt x 335.00156pt>
 File: Bilder/Helmut Schmidt Universität-a89973ff.png Graphic file (type png)
 <use Bilder/Helmut Schmidt Universität-a89973ff.png>
-Package pdftex.def Info: Bilder/Helmut Schmidt Universität-a89973ff.png  used on input line 53.
+Package pdftex.def Info: Bilder/Helmut Schmidt Universität-a89973ff.png  used on input line 65.
 (pdftex.def)             Requested size: 200.0pt x 143.77693pt.
  [1
 
@@ -643,46 +643,46 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.62     \newpage
+l.74     \newpage
                   [1]
 <Bilder/CommandWindow.png, id=173, 2025.5675pt x 459.7175pt>
 File: Bilder/CommandWindow.png Graphic file (type png)
 <use Bilder/CommandWindow.png>
-Package pdftex.def Info: Bilder/CommandWindow.png  used on input line 80.
+Package pdftex.def Info: Bilder/CommandWindow.png  used on input line 92.
 (pdftex.def)             Requested size: 432.48051pt x 98.14989pt.
 <Bilder/Editor.png, id=174, 845.0772pt x 408.0846pt>
 File: Bilder/Editor.png Graphic file (type png)
 <use Bilder/Editor.png>
-Package pdftex.def Info: Bilder/Editor.png  used on input line 87.
+Package pdftex.def Info: Bilder/Editor.png  used on input line 99.
 (pdftex.def)             Requested size: 432.48051pt x 208.8427pt.
  [2{/usr/local/texlive/2024/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc} <./Bilder/CommandWindow.png>]
 <Bilder/Workspace.png, id=185, 568.1225pt x 1353.055pt>
 File: Bilder/Workspace.png Graphic file (type png)
 <use Bilder/Workspace.png>
-Package pdftex.def Info: Bilder/Workspace.png  used on input line 94.
+Package pdftex.def Info: Bilder/Workspace.png  used on input line 106.
 (pdftex.def)             Requested size: 91.04742pt x 216.82355pt.
 <Bilder/CurrentFolder.png, id=186, 694.595pt x 965.6075pt>
 File: Bilder/CurrentFolder.png Graphic file (type png)
 <use Bilder/CurrentFolder.png>
-Package pdftex.def Info: Bilder/CurrentFolder.png  used on input line 101.
+Package pdftex.def Info: Bilder/CurrentFolder.png  used on input line 113.
 (pdftex.def)             Requested size: 136.57462pt x 189.86186pt.
  [3 <./Bilder/Editor.png> <./Bilder/Workspace.png>] [4 <./Bilder/CurrentFolder.png>]
-LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 110.
+LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 122.
  (/usr/local/texlive/2024/texmf-dist/tex/latex/base/t1cmtt.fd
 File: t1cmtt.fd 2023/04/13 v2.5m Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `T1/cmtt/bx/n' in size <10.95> not available
-(Font)              Font shape `T1/cmtt/m/n' tried instead on input line 140.
+(Font)              Font shape `T1/cmtt/m/n' tried instead on input line 152.
 
 Underfull \vbox (badness 1189) has occurred while \output is active []
 
  [5] [6]
-Underfull \hbox (badness 5217) in paragraph at lines 259--260
+Underfull \hbox (badness 5217) in paragraph at lines 271--272
 []\T1/cmr/m/n/12 Berechnet den Be-trag von \T1/cmtt/m/n/12 z \T1/cmr/m/n/12 , al-so
  []
 
 [7]
-Underfull \vbox (badness 1616) has occurred while \output is active []
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [8] [9] (./main.aux)
  ***********
@@ -693,18 +693,18 @@ Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: 49E3EFAA78F4F112978C898702E21A9A;5279.
  ) 
 Here is how much of TeX's memory you used:
- 28317 strings out of 474104
- 550709 string characters out of 5743467
- 2023493 words of memory out of 5000000
- 50127 multiletter control sequences out of 15000+600000
+ 28323 strings out of 474104
+ 550850 string characters out of 5743467
+ 2027493 words of memory out of 5000000
+ 50135 multiletter control sequences out of 15000+600000
  567943 words of font info for 56 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  83i,9n,93p,497b,1886s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfbx1440.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfbx1728.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfbx2488.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sftt1095.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sftt1200.pfb>
-Output written on main.pdf (10 pages, 1126510 bytes).
+Output written on main.pdf (10 pages, 1126945 bytes).
 PDF statistics:
- 400 PDF objects out of 1000 (max. 8388607)
- 345 compressed objects within 4 object streams
- 122 named destinations out of 1000 (max. 500000)
+ 397 PDF objects out of 1000 (max. 8388607)
+ 342 compressed objects within 4 object streams
+ 120 named destinations out of 1000 (max. 500000)
  278 words of extra memory for PDF output out of 10000 (max. 10000000)
 
