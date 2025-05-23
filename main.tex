@@ -332,11 +332,51 @@ Z_C = 1 / (1j * omega * C);
 Z_Gesamt = Z_R + Z_L + Z_C;
                     \end{lstlisting}   
                 \end{Codelösung}
-
-                \noindent Wenn Sie alles richtig gemacht haben, sollten Sie für $Z_{Gesamt}$ einen Wert von 10 - 16,12j erhalten.
                 
     \section{Vektoren und Matrizen}
         \subsection{Erstellen von Vektoren und Matrizen}
+        \begin{CodeErklaerungBox}{Zeilenvektor}
+                \begin{lstlisting}
+v = [1 2 3 4];
+                \end{lstlisting}
+                \tcblower
+                Erzeugt einen Zeilenvektor mit den angegebenen Werten. Statt der Trennung durch ein Leerzeichen können ebenfalls Kommata verwendet werden.
+                \end{CodeErklaerungBox}
+                \begin{CodeErklaerungBox}{Spaltenvektor}
+                \begin{lstlisting}
+v = [1;2;3;4];
+                \end{lstlisting}
+                \tcblower
+                Erzeugt einen Spaltenvektor mit den angegebenen Werten.
+            \end{CodeErklaerungBox}
+            \begin{CodeErklaerungBox}{Doppelpunktoperator I}
+                \begin{lstlisting}
+v = x1:x2;
+                \end{lstlisting}
+                \tcblower
+                Erzeugt einen Zeilenvektor von \texttt{x1} bis \texttt{x2} in ganzzahligen Schritten.
+            \end{CodeErklaerungBox}
+            \begin{CodeErklaerungBox}{Doppelpunktoperator II}
+                \begin{lstlisting}
+v = x1:step:x2;
+                \end{lstlisting}
+                \tcblower
+                Erzeugt einen Zeilenvektor von \texttt{x1} bis \texttt{x2} in konstanten Schritten von \texttt{step}.
+            \end{CodeErklaerungBox}
+            \begin{CodeErklaerungBox}{linspace}
+                \begin{lstlisting}
+v = linspace(x1,x2,n);
+                \end{lstlisting}
+                \tcblower
+                Erzeugt einen Zeilenvektor von \texttt{x1} bis \texttt{x2} mit \texttt{n} gleichmäßig verteilten Werten.
+            \end{CodeErklaerungBox}
+            \begin{CodeErklaerungBox}{Matrizen}
+                \begin{lstlisting}
+A = [1 2 3; 4 5 6; 7 8 9];
+                \end{lstlisting}
+                \tcblower
+                Elemente einer Zeile der Matrix werden wie bei den Vektoren mit Leerzeichen oder Komma getrennt. Ein Zeilenumbruch erfolgt durch Eingabe eines Semikolon.
+            \end{CodeErklaerungBox}
         \subsection{Zugriff auf Elemente und Indizierung}
         \subsection{Matrixoperationen}
         \subsection{nützliche MATLAB Funktionen}
