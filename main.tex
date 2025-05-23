@@ -377,6 +377,20 @@ A = [1 2 3; 4 5 6; 7 8 9];
                 \tcblower
                 Elemente einer Zeile der Matrix werden wie bei den Vektoren mit Leerzeichen oder Komma getrennt. Ein Zeilenumbruch erfolgt durch Eingabe eines Semikolon.
             \end{CodeErklaerungBox}
+            \begin{CodeErklaerungBox}{0-Matrix}
+                \begin{lstlisting}
+A = zeroes(m,n);
+                \end{lstlisting}
+                \tcblower
+                Erzeugt eine 0-Matrix der Größe \texttt{m}x\texttt{n}. \texttt{ones()} funktioniert analog zu \texttt{zeroes()} nur mit einsen.
+            \end{CodeErklaerungBox}
+            \begin{CodeErklaerungBox}{Einheitsmatrix}
+                \begin{lstlisting}
+A = eye(n);
+                \end{lstlisting}
+                \tcblower
+                Erzeugt die Einheitsmatrix der Größe \texttt{n}x\texttt{n}.
+            \end{CodeErklaerungBox}
         \subsection{Zugriff auf Elemente und Indizierung}
         \subsection{Matrixoperationen}
         \subsection{nützliche MATLAB Funktionen}
