@@ -13,6 +13,7 @@
 \contentsline {subsection}{\numberline {3.2}Zugriff auf Elemente und Indizierung}{10}{subsection.3.2}%
 \contentsline {subsection}{\numberline {3.3}Matrixoperationen}{10}{subsection.3.3}%
 \contentsline {subsection}{\numberline {3.4}nützliche MATLAB Funktionen}{10}{subsection.3.4}%
+\contentsline {subsection}{\numberline {3.5}Beispielaufgaben}{10}{subsection.3.5}%
 \contentsline {section}{\numberline {4}Programmiergrundlagen}{11}{section.4}%
 \contentsline {subsection}{\numberline {4.1}Skripte}{11}{subsection.4.1}%
 \contentsline {subsection}{\numberline {4.2}Funktionen}{11}{subsection.4.2}%

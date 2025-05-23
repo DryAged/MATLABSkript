@@ -2,35 +2,35 @@
         \subsection{Erstellen von Vektoren und Matrizen}
         \begin{CodeErklaerungBox}{Zeilenvektor}
                 \begin{lstlisting}
-v = [1 2 3 4];
+V = [1 2 3 4];
                 \end{lstlisting}
                 \tcblower
                 Erzeugt einen Zeilenvektor mit den angegebenen Werten. Statt der Trennung durch ein Leerzeichen können ebenfalls Kommata verwendet werden.
                 \end{CodeErklaerungBox}
                 \begin{CodeErklaerungBox}{Spaltenvektor}
                 \begin{lstlisting}
-v = [1;2;3;4];
+V = [1;2;3;4];
                 \end{lstlisting}
                 \tcblower
                 Erzeugt einen Spaltenvektor mit den angegebenen Werten.
             \end{CodeErklaerungBox}
             \begin{CodeErklaerungBox}{Doppelpunktoperator I}
                 \begin{lstlisting}
-v = x1:x2;
+V = x1:x2;
                 \end{lstlisting}
                 \tcblower
                 Erzeugt einen Zeilenvektor von \texttt{x1} bis \texttt{x2} in ganzzahligen Schritten.
             \end{CodeErklaerungBox}
             \begin{CodeErklaerungBox}{Doppelpunktoperator II}
                 \begin{lstlisting}
-v = x1:step:x2;
+V = x1:step:x2;
                 \end{lstlisting}
                 \tcblower
                 Erzeugt einen Zeilenvektor von \texttt{x1} bis \texttt{x2} in konstanten Schritten von \texttt{step}.
             \end{CodeErklaerungBox}
             \begin{CodeErklaerungBox}{linspace}
                 \begin{lstlisting}
-v = linspace(x1,x2,n);
+V = linspace(x1,x2,n);
                 \end{lstlisting}
                 \tcblower
                 Erzeugt einen Zeilenvektor von \texttt{x1} bis \texttt{x2} mit \texttt{n} gleichmäßig verteilten Werten.
@@ -57,5 +57,57 @@ A = eye(n);
                 Erzeugt die Einheitsmatrix der Größe \texttt{n}x\texttt{n}.
             \end{CodeErklaerungBox}
         \subsection{Zugriff auf Elemente und Indizierung}
+        \begin{CodeErklaerungBox}{Einfache Indizierung}
+                \begin{lstlisting}
+V = [10 20 30 40];
+V(2)
+                \end{lstlisting}
+                \tcblower
+                Gibt den zweiten Wert des Vektors also \texttt{20} zurück.
+                \end{CodeErklaerungBox}
+                \begin{CodeErklaerungBox}{Indizierung in Matrizen}
+                \begin{lstlisting}
+A = [1 2 3; 4 5 6; 7 8 9];
+A(2,3)
+                \end{lstlisting}
+                \tcblower
+                Gibt den dritten Wert der zweiten Zeile also \texttt{6} zurück.
+            \end{CodeErklaerungBox}
+            \begin{CodeErklaerungBox}{Doppelpunktoperator}
+                \begin{lstlisting}
+A = [1 2 3; 4 5 6; 7 8 9];
+A(:,3)
+                \end{lstlisting}
+                \tcblower
+                Gibt alle Werte der dritten Spalte als Spaltenvektor zurück.
+            \end{CodeErklaerungBox}
+            \begin{CodeErklaerungBox}{End-Schlüsselwort}
+                \begin{lstlisting}
+A(end);
+A(end-1);
+A(:,end);
+                \end{lstlisting}
+                \tcblower
+                Letztes Element\\
+                Vorletztes Element\\
+                Letzte Spalte
+            \end{CodeErklaerungBox}
+            \begin{CodeErklaerungBox}{Logische Indizierung}
+                \begin{lstlisting}
+A = [1 2 3; 4 5 6; 7 8 9];
+A(A>5)
+                \end{lstlisting}
+                \tcblower
+                Gibt den Spaltenvektor mit den Werten \texttt{7},\texttt{8},\texttt{6},\texttt{9} zurück. MATLAB geht hierfür jede Spalte Zeile für Zeile durch.
+            \end{CodeErklaerungBox}
+            \begin{CodeErklaerungBox}{Ändern von Werten}
+                \begin{lstlisting}
+V = [1 2 3 4];
+V(3) = 7
+                \end{lstlisting}
+                \tcblower
+                Ersetzt den dritten Wert des Vektor durch 7.
+            \end{CodeErklaerungBox}
         \subsection{Matrixoperationen}
         \subsection{nützliche MATLAB Funktionen}
+        \subsection{Beispielaufgaben}
