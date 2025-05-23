@@ -98,8 +98,8 @@ A = [1 2 3; 4 5 6; 7 8 9];
 A(A>5)
                 \end{lstlisting}
                 \tcblower
-                Gibt den Spaltenvektor mit den Werten \texttt{7},\texttt{8},\texttt{6},\texttt{9} zurück. MATLAB geht hierfür jede Spalte Zeile für Zeile durch.
-            \end{CodeErklaerungBox}
+                Gibt den Spaltenvektor mit den Werten \texttt{7},\texttt{8},\texttt{6},\texttt{9} zurück. MATLAB prüft jedes Element der Matrix und gibt diejenigen zurück, die größer als \texttt{5} sind. Dabei wird die Matrix spaltenweise (spaltenweise Linearindizierung) durchlaufen.
+\end{CodeErklaerungBox}
             \begin{CodeErklaerungBox}{Ändern von Werten}
                 \begin{lstlisting}
 V = [1 2 3 4];
