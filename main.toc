@@ -12,21 +12,21 @@
 \contentsline {subsection}{\numberline {3.1}Erstellen von Vektoren und Matrizen}{9}{subsection.3.1}%
 \contentsline {subsection}{\numberline {3.2}Zugriff auf Elemente und Indizierung}{10}{subsection.3.2}%
 \contentsline {subsection}{\numberline {3.3}Matrixoperationen}{11}{subsection.3.3}%
-\contentsline {subsection}{\numberline {3.4}nützliche MATLAB Funktionen}{11}{subsection.3.4}%
-\contentsline {subsection}{\numberline {3.5}Beispielaufgaben}{11}{subsection.3.5}%
-\contentsline {section}{\numberline {4}Programmiergrundlagen}{12}{section.4}%
-\contentsline {subsection}{\numberline {4.1}Skripte}{12}{subsection.4.1}%
-\contentsline {subsection}{\numberline {4.2}Funktionen}{12}{subsection.4.2}%
-\contentsline {subsection}{\numberline {4.3}Schleifen}{12}{subsection.4.3}%
-\contentsline {section}{\numberline {5}Arbeiten mit Dateien und Daten}{13}{section.5}%
-\contentsline {subsection}{\numberline {5.1}Speichern und Laden von Daten}{13}{subsection.5.1}%
-\contentsline {subsection}{\numberline {5.2}Importieren von Messdaten}{13}{subsection.5.2}%
-\contentsline {subsection}{\numberline {5.3}Analyse und Verarbeitung von Daten}{13}{subsection.5.3}%
-\contentsline {section}{\numberline {6}Visualisierung von Daten}{14}{section.6}%
-\contentsline {subsection}{\numberline {6.1}Einfache Diagramme}{14}{subsection.6.1}%
-\contentsline {subsection}{\numberline {6.2}Mehrere Kurven in einem Diagramm}{14}{subsection.6.2}%
-\contentsline {subsection}{\numberline {6.3}Mehrere Diagramme in einer Übersicht}{14}{subsection.6.3}%
-\contentsline {subsection}{\numberline {6.4}Grafische Anpassungen}{14}{subsection.6.4}%
-\contentsline {section}{\numberline {7}Anhang}{15}{section.7}%
-\contentsline {subsection}{\numberline {7.1}Dokumentation in MATLAB}{15}{subsection.7.1}%
-\contentsline {subsection}{\numberline {7.2}Übersicht wichtiger MATLAB Befehle}{15}{subsection.7.2}%
+\contentsline {subsection}{\numberline {3.4}nützliche MATLAB Funktionen}{12}{subsection.3.4}%
+\contentsline {subsection}{\numberline {3.5}Beispielaufgaben}{12}{subsection.3.5}%
+\contentsline {section}{\numberline {4}Programmiergrundlagen}{13}{section.4}%
+\contentsline {subsection}{\numberline {4.1}Skripte}{13}{subsection.4.1}%
+\contentsline {subsection}{\numberline {4.2}Funktionen}{13}{subsection.4.2}%
+\contentsline {subsection}{\numberline {4.3}Schleifen}{13}{subsection.4.3}%
+\contentsline {section}{\numberline {5}Arbeiten mit Dateien und Daten}{14}{section.5}%
+\contentsline {subsection}{\numberline {5.1}Speichern und Laden von Daten}{14}{subsection.5.1}%
+\contentsline {subsection}{\numberline {5.2}Importieren von Messdaten}{14}{subsection.5.2}%
+\contentsline {subsection}{\numberline {5.3}Analyse und Verarbeitung von Daten}{14}{subsection.5.3}%
+\contentsline {section}{\numberline {6}Visualisierung von Daten}{15}{section.6}%
+\contentsline {subsection}{\numberline {6.1}Einfache Diagramme}{15}{subsection.6.1}%
+\contentsline {subsection}{\numberline {6.2}Mehrere Kurven in einem Diagramm}{15}{subsection.6.2}%
+\contentsline {subsection}{\numberline {6.3}Mehrere Diagramme in einer Übersicht}{15}{subsection.6.3}%
+\contentsline {subsection}{\numberline {6.4}Grafische Anpassungen}{15}{subsection.6.4}%
+\contentsline {section}{\numberline {7}Anhang}{16}{section.7}%
+\contentsline {subsection}{\numberline {7.1}Dokumentation in MATLAB}{16}{subsection.7.1}%
+\contentsline {subsection}{\numberline {7.2}Übersicht wichtiger MATLAB Befehle}{16}{subsection.7.2}%
