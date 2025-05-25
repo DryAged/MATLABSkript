@@ -109,5 +109,46 @@ V(3) = 7
                 Ersetzt den dritten Wert des Vektor durch 7.
             \end{CodeErklaerungBox}
         \subsection{Matrixoperationen}
+        \begin{CodeErklaerungBox}{Elementweise Operationen}
+                \begin{lstlisting}
+A = [1 2; 3 4];
+B = [5 6; 7 8];
+
+C = A + B;
+D = A - B;
+E = A .* B;
+F = A ./ B;
+G = A .^ 2;
+                \end{lstlisting}
+                \tcblower
+                Für Elementweise Operationen muss ein Punkt vor dem Operator genutzt werden. Bei Addition und Subtraktion ist dies jedoch irrelevant.
+            \end{CodeErklaerungBox}
+            \begin{CodeErklaerungBox}{Matrixmultiplikation}
+                \begin{lstlisting}
+A = [1 2; 3 4];
+B = [5; 6];
+
+C = A * B;
+                \end{lstlisting}
+                \tcblower
+                Für die klassische Matrixmultiplikation gelten die allgemeinen Regeln aus der linearen Algebra. Beim Operator muss hier auf den Punkt verzichtet werden.
+            \end{CodeErklaerungBox}
+            \begin{CodeErklaerungBox}{Transposition}
+                \begin{lstlisting}
+A = [1 2; 3 4];
+B = A'
+                \end{lstlisting}
+                \tcblower
+                Für Matrizen mit komplexen Zahlen erzeugt das Hochkomma die adjungierte Matrix. Für reine Transposition wird \texttt{.'} verwendet. Bei reelen Matrizen können beide Versionen analog verwendet werden.
+            \end{CodeErklaerungBox}
+            \begin{CodeErklaerungBox}{Lösen linearer Gleichungssysteme der Form {Ax = b}}
+                \begin{lstlisting}
+A = [1 2; 3 4];
+b = [5;6];
+x = A \ b;
+                \end{lstlisting}
+                \tcblower
+                Zum Lösen von linearen Gleichungssystemen wird der Backslash verwendet.
+            \end{CodeErklaerungBox}
         \subsection{nützliche MATLAB Funktionen}
         \subsection{Beispielaufgaben}
