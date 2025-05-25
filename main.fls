@@ -236,6 +236,16 @@ INPUT /usr/local/texlive/2024/texmf-dist/tex/generic/babel/locale/de/babel-ngerm
 INPUT /usr/local/texlive/2024/texmf-dist/tex/generic/babel/locale/de/babel-ngerman.tex
 INPUT /usr/local/texlive/2024/texmf-dist/tex/generic/babel/locale/de/babel-ngerman.tex
 INPUT /usr/local/texlive/2024/texmf-dist/tex/generic/babel/locale/de/babel-de.ini
+INPUT /usr/local/texlive/2024/texmf-dist/tex/latex/amsmath/amsmath.sty
+INPUT /usr/local/texlive/2024/texmf-dist/tex/latex/amsmath/amsmath.sty
+INPUT /usr/local/texlive/2024/texmf-dist/tex/latex/amsmath/amsopn.sty
+INPUT /usr/local/texlive/2024/texmf-dist/tex/latex/amsmath/amstext.sty
+INPUT /usr/local/texlive/2024/texmf-dist/tex/latex/amsmath/amstext.sty
+INPUT /usr/local/texlive/2024/texmf-dist/tex/latex/amsmath/amsgen.sty
+INPUT /usr/local/texlive/2024/texmf-dist/tex/latex/amsmath/amsgen.sty
+INPUT /usr/local/texlive/2024/texmf-dist/tex/latex/amsmath/amsbsy.sty
+INPUT /usr/local/texlive/2024/texmf-dist/tex/latex/amsmath/amsbsy.sty
+INPUT /usr/local/texlive/2024/texmf-dist/tex/latex/amsmath/amsopn.sty
 INPUT /usr/local/texlive/2024/texmf-dist/tex/latex/listings/lstlang1.sty
 INPUT /usr/local/texlive/2024/texmf-dist/tex/latex/listings/lstlang1.sty
 INPUT /usr/local/texlive/2024/texmf-dist/tex/latex/listings/lstlang1.sty
@@ -343,6 +353,9 @@ INPUT /usr/local/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmmi6.tfm
 INPUT /usr/local/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmsy10.tfm
 INPUT /usr/local/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmsy8.tfm
 INPUT /usr/local/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmsy6.tfm
+INPUT /usr/local/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmex10.tfm
+INPUT /usr/local/texlive/2024/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex8.tfm
+INPUT /usr/local/texlive/2024/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm
 OUTPUT main.toc
 INPUT ./Inhalt/01_Einführung.tex
 INPUT ./Inhalt/01_Einführung.tex

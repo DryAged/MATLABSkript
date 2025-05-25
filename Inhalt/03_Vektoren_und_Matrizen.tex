@@ -184,3 +184,83 @@ x = A \ b;
             \hline
         \end{tabularx}
         \subsection{Beispielaufgaben}
+            \subsubsection*{Aufgabe 1}
+            Gegeben seien folgende Matrizen:
+            \begin{math}
+                A = \begin{pmatrix}
+                    1 & 2 \\
+                    3 & 4
+                \end{pmatrix}
+            \end{math}
+            und 
+            \begin{math}
+                B = \begin{pmatrix}
+                    5 & 6 \\
+                    7 & 8
+                \end{pmatrix}
+            \end{math}
+            .\\
+
+            \vspace{0.5cm}
+            \noindent
+            1. Berechnen Sie die Summe der beiden Matrizen \\
+            2. Berechnen sie das elementweise Quadrat von A. \\
+            3. Bestimmen Sie die transponierte von B.
+
+            \begin{Codelösung}{Lösung 1}
+                \begin{lstlisting}
+A = [1 2; 3 4];
+B = [5 6; 7 8];
+
+C = A + B;
+
+D = A .^ 2;
+
+E = B';
+                \end{lstlisting}
+                
+            \end{Codelösung}
+            \subsubsection*{Aufgabe 2}
+
+            Gegeben sei die Matrix $A = \begin{pmatrix}
+                2 & 5 & 8  \\
+                7 & 9 & 3  \\
+                6 & 1 & 0  \\
+            \end{pmatrix}$\\
+
+            \vspace{0.5cm}
+            \noindent1. Geben Sie das 2. Element der ersten Zeile aus.\\
+            2. Ersetzen Sie das 2. Element der dritte Spalte durch 1\\
+            3. Ermitteln Sie alle Einträge, die größer als 6 sind.
+
+            \begin{Codelösung}{Lösung 2}
+                \begin{lstlisting}
+A = [2 5 8; 7 9 3; 6 1 0];         
+
+a = A(1,2);
+
+A(2,3) = 1;
+
+B = A(A>6);
+                \end{lstlisting}
+            \end{Codelösung}
+            \subsubsection*{Aufgabe 3}
+            Gegeben sei folgendes lineares Gleichungssystem:
+            
+                \[2x + 3y - z = 1\]
+                \[4x + 1y + 1z = 9\]
+                \[-2x + 5y + 2z = 2\]
+
+            \noindent 1. Lösen Sie das Gleichungssystem.\\
+            2. Überprüfen Sie das Ergebnis durch Rückeinsetzen.
+
+            \begin{Codelösung}{Lösung 3}
+                \begin{lstlisting}
+A = [2 3 -1; 4 1 1; -2 5 2];
+b = [1; 9; 2];
+
+x = A \ b;
+
+test = A * x;
+                \end{lstlisting}
+            \end{Codelösung}
