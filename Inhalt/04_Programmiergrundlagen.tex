@@ -10,7 +10,7 @@
         \end{itemize}
         \subsubsection*{Kommentare}
         Mittels des \texttt{\%} Zeichens kann ein Kommentar eingefügt werden, das beim Ausführen des Skriptes nicht beachtet wird.
-        \begin{Codelösung}{Beispielskript}
+        \begin{Codelösung}{Skriptbeispiel}
                 \begin{lstlisting}
 % Erzeuge 3x3 Matrix
 A = [1 2 3; 4 5 6; 7 8 9];
@@ -28,5 +28,27 @@ c = b';
                 \item Rechenweg bleibt komplett dokumentiert und kann einfacher überprüft und angepasst werden.
                 \item Komplexe Abläufe lassen sich klar gliedern und durch Kommentare strukturieren.
         \end{itemize}
+        \clearpage
         \subsection{Funktionen}
+        Funktionen werden ebenfalls in einem \texttt{.m}-File gespeichert enthalten im Gegensatz zu einem einfachen Skript jedoch Ein- und Ausgabeargumente und werden mit einem \texttt{end} beendet.
+        \begin{center}
+                \texttt{function [Ausgabe] = Funktionsname(Eingabe)}     
+        \end{center}
+                Die Verwendung von eckigen Klammern ist lediglich bei Verwendung mehrerer Ausgabeargumente notwendig, kann jedoch auch bei nur einem Argument verwendet werden. \\
+                Der Funktionsname sollte dem Dateinamen entsprechen, um die Funktion auch in anderen Skripten ausführen zu können.
+                \begin{Codelösung}{Funktionsbeispiel}
+                        \begin{lstlisting}
+function A = Flaecheninhalt(r)
+
+A = pi * r^2;
+end       
+                        \end{lstlisting}
+
+                \end{Codelösung}
+                \noindent
+                Die Funktion kann nun durch Eingabe im Command Window oder innerhalb eines Skriptes mit beispielsweise
+                \begin{center}
+                        \texttt{Flaecheninhalt(3)}
+                \end{center}
+                aufgerufen werden und gibt somit den Flächeninhalt eines Kreises mit dem Radius 3 zurück.
         \subsection{Schleifen}
