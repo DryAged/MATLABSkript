@@ -1,4 +1,32 @@
 \section{Programmiergrundlagen}
         \subsection{Skripte}
+        Ein Skript ist eine Sammlung von MATLAB Befehlen, die in einer Datei gemeinsam abgespeichert und ausgeführt werden können. Die Dateiendung eines solchen Skripts ist \texttt{.m} 
+        \subsubsection*{Vorgehensweise}
+        \begin{itemize}
+                \item Rechtsklick im Current Folder \textrightarrow New \textrightarrow Script
+                \item Eingeben der gewünschten MATLAB Befehle im Editor analog zur Verwendung im Command Window
+                \item Speichern des Skriptes
+                \item Ausführen durch Eingabe des Dateinamens ohne Dateiendung im Command Window oder den Run Button in der Navigationsleiste bei geöffnetem Editor.
+        \end{itemize}
+        \subsubsection*{Kommentare}
+        Mittels des \texttt{\%} Zeichens kann ein Kommentar eingefügt werden, das beim Ausführen des Skriptes nicht beachtet wird.
+        \begin{Codelösung}{Beispielskript}
+                \begin{lstlisting}
+% Erzeuge 3x3 Matrix
+A = [1 2 3; 4 5 6; 7 8 9];
+
+% Erste Spalte der Matrix als Spaltenvektor
+b = A(:,1);
+
+% Transponiert b zu Zeilenvektor
+c = b';
+                \end{lstlisting}
+        \end{Codelösung}
+        \subsubsection*{Vorteile von Skripten gegenüber der Eingabe im Command Window}
+        \begin{itemize}
+                \item Skripte können beliebig oft ausgeführt werden, ohne die Befehle jedes mal erneut eingeben zu müssen.
+                \item Rechenweg bleibt komplett dokumentiert und kann einfacher überprüft und angepasst werden.
+                \item Komplexe Abläufe lassen sich klar gliedern und durch Kommentare strukturieren.
+        \end{itemize}
         \subsection{Funktionen}
         \subsection{Schleifen}
