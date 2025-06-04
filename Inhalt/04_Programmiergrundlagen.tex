@@ -160,20 +160,20 @@ end
 [a,b] = nullstellen(1 +1*i, -5 - 1*i, 10)}
         \end{center}
         \subsubsection*{Aufgabe 3}
-        Schreiben Sie eine MATLAB Funktion \texttt{integral(a,b,c,xStart,xEnd)} welche mittels numerischer Integration und der Rechteckregel das bestimmte Integral einer quadratischen Funktion approximieren kann. Zudem soll die Funktion nur dann das Integral berechnen, wenn der Startwert kleiner als der Endwert ist.
+        Schreiben Sie eine MATLAB Funktion \texttt{flaeche(a,b,c,xStart,xEnd)} welche mittels numerischer Integration und der Rechteckregel das bestimmte Integral einer quadratischen Funktion der Form \[f(x) = ax^2 + bx + c \] approximieren kann. Zudem soll die Funktion nur dann das Integral berechnen, wenn der Startwert kleiner als der Endwert ist.
 
-        \[A=\int_{xStart}^{xEnd}{f(x) dx} \approx \Delta x \cdot \sum_{i=0}^{n-1}f(x_i)\]
+        \[A=\int\limits_{xStart}^{xEnd}{f(x) dx} \approx \Delta x \cdot \sum_{i=0}^{n-1}f(x_i)\]
 
         Berechne anschließend
-        \[\int_{0}^{7}3x^2 + 2x -7 dx\]
+        \[\int\limits_{0}^{3}3x^2 - 2x +8 dx\]
         \subsubsection*{Lösung 3}
-        \begin{Codelösung}{integral.m}
+        \begin{Codelösung}{flaeche.m}
                 \begin{lstlisting}
-function A = integral(a, b, c, xStart, xEnd)
+function A = flaeche(a, b, c, xStart, xEnd)
     if xEnd > xStart
-        n = 10000;
+        n = 100000;
         dx = (xEnd - xStart) / n;
-        x = x_start : dx : x_end - dx;
+        x = xStart : dx : xEnd - dx;
         f = a*x.^2 + b*x + c;
         A = sum(f) * dx;
     else
@@ -182,4 +182,10 @@ function A = integral(a, b, c, xStart, xEnd)
 end
                 \end{lstlisting}
         \end{Codelösung}
+
+        \noindent Aufruf der Funktion mittels der Command Window Eingabe
+        
+        \begin{center}
+                \texttt{A = flaeche(3,-2,8,0,3)}
+        \end{center}
         
