@@ -1,4 +1,50 @@
  \section{Arbeiten mit Dateien und Daten}
         \subsection{Speichern und Laden von Daten}
+        \begin{CodeErklaerungBox}{alle Variablen speichern}
+              \begin{lstlisting}
+save('dateiname.mat');
+              \end{lstlisting}
+              \tcblower
+              Speichert alle Variablen des Workspaces in einer \texttt{.mat} Datei.
+        \end{CodeErklaerungBox}
+        \begin{CodeErklaerungBox}{einzelne Variablen speichern}
+              \begin{lstlisting}
+save('dateiname.mat' 
+, 'variable');
+              \end{lstlisting}
+              \tcblower
+              Speichert eine ausgewählte Variable in einer \texttt{.mat} Datei.
+        \end{CodeErklaerungBox}
+                \begin{CodeErklaerungBox}{alle Variablen laden}
+              \begin{lstlisting}
+load('dateiname.mat');
+              \end{lstlisting}
+              \tcblower
+              Lädt alle Variablen einer \texttt{.mat} Datei in den Workspace.
+        \end{CodeErklaerungBox}
+        \begin{CodeErklaerungBox}{einzelne Variablen laden}
+              \begin{lstlisting}
+load('dateiname.mat' 
+, 'variable');
+              \end{lstlisting}
+              \tcblower
+              Lädt die ausgewählte Variable einer \texttt{.mat} Datei in den Workspace.
+        \end{CodeErklaerungBox}
+       \noindent Alternativ zum Laden mittels \texttt{load()} kann dies auch über einen Doppelklick auf die \texttt{.mat} Datei im Current Folder ausgeführt werden.
+       \begin{CodeErklaerungBox}{Speichern als .csv Datei}
+              \begin{lstlisting}
+dlmwrite('dateiname.csv' , Matrixname);
+              \end{lstlisting}
+              \tcblower
+              Speichert eine ausgewählte Matrix als \texttt{.csv} Datei.
+        \end{CodeErklaerungBox}
+        \begin{CodeErklaerungBox}{Speichern als ASCII}
+              \begin{lstlisting}
+save('dateiname.txt','variable','-ascii')
+              \end{lstlisting}
+              \tcblower
+              Speichert eine ausgewählte Variable im ASCII-Format in einer Textdatei. (Zum Austausch mit anderen Systemen)
+        \end{CodeErklaerungBox}
         \subsection{Importieren von Messdaten}
         \subsection{Analyse und Verarbeitung von Daten}
+        
