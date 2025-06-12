@@ -46,5 +46,12 @@ save('dateiname.txt','variable','-ascii')
               Speichert eine ausgewählte Variable im ASCII-Format in einer Textdatei. (Zum Austausch mit anderen Systemen)
         \end{CodeErklaerungBox}
         \subsection{Importieren von Messdaten}
+        \begin{CodeErklaerungBox}{Import von Tabellen}
+            \begin{lstlisting}
+readtable('dateiname')
+            \end{lstlisting}
+            \tcblower
+            Importiert eine Tabelle mit Headerzeilen und gibt ein \texttt{table} - Objekt zurück.
+        \end{CodeErklaerungBox}
         \subsection{Analyse und Verarbeitung von Daten}
         

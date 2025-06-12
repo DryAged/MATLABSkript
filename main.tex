@@ -1,7 +1,7 @@
 \documentclass[12pt, a4paper, twoside]{article}
 
 \usepackage{graphicx}
-\usepackage[a4paper, left=2.5cm, right=2.5cm, top=2.5cm, bottom=3cm]{geometry}
+\usepackage[a4paper, left=2.5cm, right=2.5cm, top=2.5cm, bottom=2cm]{geometry}
 \usepackage[utf8]{inputenc}
 \usepackage[T1]{fontenc}
 \usepackage{tcolorbox}
@@ -17,7 +17,12 @@
 \usepackage{etoolbox}
 
 \let\oldtexttt\texttt
-\renewcommand{\texttt}[1]{\colorbox{SkyBlue}{\oldtexttt{#1}}}
+\renewcommand{\texttt}[1]{%
+  \begingroup
+    \setlength{\fboxsep}{3pt}
+    \colorbox{SkyBlue}{\oldtexttt{#1}}%
+  \endgroup
+}
 
 %Listingkonfiguration
 \lstset{
