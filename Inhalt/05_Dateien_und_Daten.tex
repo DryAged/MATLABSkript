@@ -40,7 +40,7 @@ dlmwrite('dateiname.csv' , Matrixname);
         \end{CodeErklaerungBox}
         \begin{CodeErklaerungBox}{Speichern als ASCII}
               \begin{lstlisting}
-save('dateiname.txt','variable','-ascii')
+save('dateiname.txt','variable','-ascii');
               \end{lstlisting}
               \tcblower
               Speichert eine ausgewählte Variable im ASCII-Format in einer Textdatei. (Zum Austausch mit anderen Systemen)
@@ -48,10 +48,31 @@ save('dateiname.txt','variable','-ascii')
         \subsection{Importieren von Messdaten}
         \begin{CodeErklaerungBox}{Import von Tabellen}
             \begin{lstlisting}
-readtable('dateiname')
+readtable('dateiname');
             \end{lstlisting}
             \tcblower
             Importiert eine Tabelle mit Headerzeilen und gibt ein \texttt{table} - Objekt zurück.
         \end{CodeErklaerungBox}
+        \begin{CodeErklaerungBox}{Import von Matrizen}
+            \begin{lstlisting}
+readmatrix('dateiname');
+            \end{lstlisting}
+            \tcblower
+            Importiert eine rein numerische Tabelle, ignoriert Headerzeilen und gibt eine \texttt{double} - Matrix zurück.
+        \end{CodeErklaerungBox}
         \subsection{Analyse und Verarbeitung von Daten}
+        \begin{CodeErklaerungBox}{Mittelwert}
+            \begin{lstlisting}
+mean(daten);
+            \end{lstlisting}
+            \tcblower
+            Gibt den Spaltenweisen Mittelwert einer Datenmatrix oder den Mittelwert eines Spaltenvektors zurück.
+        \end{CodeErklaerungBox}
+        \begin{CodeErklaerungBox}{Standardabweichung}
+            \begin{lstlisting}
+std(daten);
+            \end{lstlisting}
+            \tcblower
+            Gibt die spaltenweise Standardabweichung einer Datenmatrix oder die Standardabweichung eines Datenvektors zurück.
+        \end{CodeErklaerungBox}
         
