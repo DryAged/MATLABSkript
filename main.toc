@@ -28,6 +28,9 @@
 \contentsline {subsection}{\numberline {6.2}Mehrere Kurven in einem Diagramm}{21}{subsection.6.2}%
 \contentsline {subsection}{\numberline {6.3}Mehrere Diagramme in einer Übersicht}{21}{subsection.6.3}%
 \contentsline {subsection}{\numberline {6.4}Grafische Anpassungen}{21}{subsection.6.4}%
+\contentsline {subsection}{\numberline {6.5}Mehrere Kurven in einem Diagramm}{21}{subsection.6.5}%
+\contentsline {subsection}{\numberline {6.6}Mehrere Diagramme in einer Übersicht}{21}{subsection.6.6}%
+\contentsline {subsection}{\numberline {6.7}Grafische Anpassungen}{21}{subsection.6.7}%
 \contentsline {section}{\numberline {7}Anhang}{22}{section.7}%
 \contentsline {subsection}{\numberline {7.1}Dokumentation in MATLAB}{22}{subsection.7.1}%
 \contentsline {subsection}{\numberline {7.2}Übersicht wichtiger MATLAB Befehle}{22}{subsection.7.2}%
